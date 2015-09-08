@@ -1,0 +1,215 @@
+/* ==============================================================
+
+Template name : Tooku - crative bootstrap template
+Categorie : Site template
+Author : Nce18cex
+Version : v1.0.0
+Created : 28 Juny 2015
+Last update : 30 August 2015
+
+-----------------------------------------------------------------
+CSS structure
+-----------------------------------------------------------------
+
+01. Color
+02. Background color
+03. Border color
+04. Hover background color
+05. Hover border color
+	
+============================================================== */
+
+/*
+Color
+=========================== */
+a,
+a:hover,
+a:focus,
+.noempaty,
+.primary,
+.icon-primary,
+.btn-primary.btn-bordered,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus,
+.navbar-nav .yamm-link li a:hover,
+.navbar-nav .yamm-link li a:active,
+.navbar-nav .yamm-link li a:focus,
+.cart .icon-cart,
+.home-link li a:hover,
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span,
+.team-detail span,
+.article-title h5 a:hover,
+.pricing-header,
+.pricing-header h4,
+.pricing-list li i,
+.list-link li a:hover,
+.social-network li a:hover,
+.social-network li a:focus,
+.social-network li a:active,
+.recent li h6 a:hover,
+.yamm .dropdown-menu > li.container .recent li h6 a:hover,
+.dropdown-cart li  h6 a:hover,
+.twitter-icon,
+ol.breadcrumb li a.active,
+ul.pagination li a:hover,
+ul.pagination li.active a,
+ul.pagination li.active a:hover,
+ul.cat li a:hover,
+ul.tags li a:hover,
+.media-heading a:hover,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus,
+.panel-title a,
+.panel-title a:hover,
+.list-contact li.primary i,
+.product-wrapper span.price,
+.product-title h6 a:hover,
+.about-caption span{
+	color:#d33939;
+}
+
+/*
+Background color
+=========================== */
+.navbar-nav .dropdown-menu > li > a:hover,
+.navbar .navbar-toggle:hover .icon-bar,
+.cart span,
+.btn-primary,
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active,
+.owl-theme .owl-controls .owl-buttons div.owl-prev:hover,
+.owl-theme .owl-controls .owl-buttons div.owl-next:hover,
+.filter-items li.active span,
+.filter-items li span:hover,
+.filter-items li span:active,
+.filter-items li span:focus,
+.zoom a,
+div.pp_default .pp_close:hover,
+div.pp_default .pp_expand:hover,
+div.pp_default .pp_contract:hover,
+.post-date,
+.princing-title,
+.btn-subscribe,
+.btn-search,
+#toTopHover,
+#portfolio-slide .owl-controls div.owl-prev:hover,
+#portfolio-slide .owl-controls div.owl-next:hover,
+.list-contact li.primary,
+.line-circle,
+.checkator_source:checked+.checkator_element:after,
+.price-lg,
+.flexslider:hover .flex-next,
+.flexslider:hover .flex-prev,
+.flex-control-paging li a:hover ,
+.flex-control-paging li a.flex-active,
+.remove:hover,
+.remove:focus,
+.remove:active,
+.styled-table thead th,
+.styled-table thead td,
+.jos-icon,
+.jos-heading.primary-bg,
+.btn-rotate,
+.object,
+.demo-panel h6,
+a.openpanel,
+.heading .linner{
+	background-color:#d33939;
+}
+
+/*
+Border color
+=========================== */
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus,
+.navbar-nav .dropdown-menu > li > a:hover,
+.navbar .navbar-toggle:hover,
+.btn-primary,
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active,
+.form-control:focus,
+.input-group .form-control:focus,
+.owl-theme .owl-controls .owl-buttons div.owl-prev:hover,
+.owl-theme .owl-controls .owl-buttons div.owl-next:hover,
+.client-logo .logo-link:hover,
+.princing-title,
+.btn-subscribe,
+.search-input:focus,
+ul.pagination li a:hover,
+ul.pagination li.active a,
+ul.pagination li.active a:hover,
+.img-thumbnail:hover,
+ul.tags li a:hover,
+a:hover .media-object,
+.checkator_source:focus+.checkator_element,
+.checkator_source:hover+.checkator_element,
+.flex-control-thumbs img:hover,
+.flexslider:hover .flex-next,
+.flexslider:hover .flex-prev,
+.remove:hover,
+.remove:focus,
+.remove:active{
+	border-color:#d33939;
+}
+
+.pricing-wrapper{
+	border-top-color:#d33939;
+}
+
+/*
+Hover background color
+=========================== */
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:hover,
+.zoom a:hover {
+	background-color:#eb5858;
+}
+
+/*
+Hover border color
+=========================== */
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:hover {
+	border-color:#eb5858;
+}

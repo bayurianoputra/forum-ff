@@ -1,0 +1,96 @@
+.slider2_container{
+    width: 1920px;
+    height: 980px;
+    position: relative;
+}
+
+.slides{
+    cursor: move; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    width: 1920px; 
+    height: 980px;
+    overflow: hidden;
+}
+
+.jos-cap{
+    position:absolute;
+    color:#fff;
+}
+
+.btn-jssor{
+	height:50px;
+	font-size:18px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.jos-title1{
+    font-size: 60px;
+    line-height: 65px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.jos-title2{
+    font-size: 90px;
+    line-height: 95px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.jos-title3{
+    font-size: 60px;
+    line-height: 65px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.jos-text1{
+    font-size: 110px;
+    line-height: 96px;
+    text-transform: uppercase;
+    font-weight: 900;	
+	width:650px;
+	color:rgba(255, 255, 255, 0.8);
+	border-right:1px solid #fff;
+	text-align:right;
+	padding-right:30px;
+}
+
+.jos-text2{
+	width:480px;
+	font-size:18px;
+	line-height:42px;
+}
+
+.jos-block-list{
+	background:rgba(0, 0, 0, 0.6);
+	padding:15px 30px 15px 80px;
+	height:60px;
+	font-size:24px;
+	line-height:26px;
+	text-align:right;
+}
+
+.jos-icon{
+	position:absolute;
+	top:0;
+	left:0;
+	display:inline-block;
+	width:60px;
+	height:60px;
+	text-align:center;
+	font-size:26px;
+	line-height:58px;
+}
+
+.jos-heading{
+	font-size:42px;
+	line-height:42px;
+    text-transform: uppercase;
+	font-weight:700;
+	background:rgba(0, 0, 0, 0.6);
+	padding:20px 40px;
+}

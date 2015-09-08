@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="ico/favicon.png">
+
+    <title>Tooku - crative bootstrap template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Font -->
+	<link href="fonts/open-sans/stylesheet.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="css/icons.css" rel="stylesheet">
+	
+    <!-- Overwrite bootstrap style -->
+    <link href="css/overwrite.css" rel="stylesheet">
+
+    <!-- prettyPhoto -->	
+	<link href="css/prettyPhoto.css" rel="stylesheet">	
+	
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Skins style -->
+    <link id="skin" href="skins/default.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+	<!-- Start preloading -->
+	<div id="loading" class="loading-invisible">
+		<div class="loading-center">
+			<div class="loading-center-absolute">
+				<div class="object" id="object_one"></div>
+				<div class="object" id="object_two"></div>
+				<div class="object" id="object_three"></div>
+				<div class="object" id="object_four"></div>
+				<div class="object" id="object_five"></div>
+				<div class="object" id="object_six"></div>
+				<div class="object" id="object_seven"></div>
+				<div class="object" id="object_eight"></div>
+				<div class="object" id="object_big"></div>
+			</div>
+			<p>Please wait...</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		  document.getElementById("loading").className = "loading-visible";
+		  var hideDiv = function(){document.getElementById("loading").className = "loading-invisible";};
+		  var oldLoad = window.onload;
+		  var newLoad = oldLoad ? function(){hideDiv.call(this);oldLoad.call(this);} : hideDiv;
+		  window.onload = newLoad;
+	</script>
+	<!-- End preloading -->
+	
+ 	<!-- Start demo options -->
+	<div class="demo-panel">
+		<h6>Color options</h6>
+		<ul class="stylechanger tooltips">
+			<li><a id="color1" href="404.html#" data-skin="default.css"></a></li>
+			<li><a id="color2" href="404.html#" data-skin="pink.css"></a></li>				
+			<li><a id="color3" href="404.html#" data-skin="navy.css"></a></li>
+			<li><a id="color4" href="404.html#" data-skin="blue.css"></a></li>	
+			<li><a id="color5" href="404.html#" data-skin="orange.css"></a></li>
+			<li><a id="color6" href="404.html#" data-skin="purple.css"></a></li>
+			<li><a id="color7" href="404.html#" data-skin="violet.css"></a></li>
+			<li><a id="color8" href="404.html#" data-skin="green.css"></a></li>			
+			<li><a id="color9" href="404.html#" data-skin="misty.css"></a></li>
+			<li><a id="color10" href="404.html#" data-skin="yellow.css"></a></li>				
+		</ul>
+		<div class="clearfix"></div>
+		<h6>Index variants</h6>
+		<ul class="layout">
+			<li class="full">
+				<a href="index.html" class="btn btn-bordered btn-primary btn-block">index alt1</a>
+			</li>
+			<li class="full">
+				<a href="index-alt1.html" class="btn btn-bordered btn-primary btn-block">index alt2</a>
+			</li>
+			<li class="full">
+				<a href="index-alt2.html" class="btn btn-bordered btn-primary btn-block">index alt3</a>
+			</li>
+			<li class="full">
+				<a href="index-alt3.html" class="btn btn-bordered btn-primary btn-block">index alt4</a>
+			</li>
+			<li class="full">
+				<a href="index-alt4.html" class="btn btn-bordered btn-primary btn-block">index alt5</a>
+			</li>
+			<li class="full">
+				<a href="index-alt5.html" class="btn btn-bordered btn-primary btn-block">index alt6</a>
+			</li>
+		</ul>
+		<div class="clearfix"></div>
+		<h6>Bonus</h6>
+		<ul class="layout">
+			<li class="full">
+				<a href="underconstruction/index.html" target="_blank" class="btn btn-bordered btn-primary btn-block">underconstruction</a>
+			</li>
+		</ul>
+	</div>	
+	<a class="openpanel" href="404.html#" title=""><i class="icon-equalizer2"></i></a>
+	<!-- End demo options --> 
+		
+	<!-- Start theme containt -->
+	<div id="wrapper">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="error">
+						<h4><span>Error</span> 404</h4>
+						<p class="title">Upsss... sorry this page can't be found</p>
+						<p>If you want return to the homepage, please <a href="index.html">click here</a></p>
+					</div>
+					<div class="could"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End theme containt -->
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+	
+    <script src="js/bootstrap.min.js"></script>
+	
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+	
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+	
+	<script src="js/jquery.easing.1.3.js"></script>
+	
+	<!-- Sticky -->
+	<script src="js/sticky/jquery.sticky.js"></script>
+	<script src="js/sticky/setting.js"></script>
+
+	<!-- parallax -->
+	<script src="js/parallax/jquery.parallax-1.1.3.js"></script>
+	<script src="js/parallax/setting.js"></script>
+
+	<!-- Go to top -->
+	<script src="js/totop/jquery.ui.totop.js"></script>	
+	<script src="js/totop/setting.js"></script>
+	
+	<!-- custom javascript -->
+	<script src="js/custom.js"></script>
+	
+	<!-- Theme option-->
+	<script src="js/theme-option/demosetting.js"></script>	
+  </body>
+</html>

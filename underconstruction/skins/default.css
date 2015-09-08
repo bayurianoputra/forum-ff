@@ -1,0 +1,93 @@
+/* ==============================================================
+
+Template name : Tooku - crative bootstrap template
+Categorie : Site template
+Author : Nce18cex
+Version : v1.0.0
+Created : 28 Juny 2015
+Last update : 30 August 2015
+
+-----------------------------------------------------------------
+CSS structure
+-----------------------------------------------------------------
+
+01. Color
+02. Background color
+03. Border color
+	
+============================================================== */
+
+/*
+Color
+=========================== */
+.content-rocket .bottom-text,
+ul.social-network-center li a:hover,
+a,
+a:hover,
+a:focus,
+.icon-primary,
+.btn-primary.btn-bordered,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus,
+.navbar-nav .yamm-link li a:hover,
+.navbar-nav .yamm-link li a:active,
+.navbar-nav .yamm-link li a:focus,
+.cart .icon-cart,
+.home-link li a:hover,
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span,
+.team-detail span,
+.article-title h5 a:hover,
+.pricing-header,
+.pricing-header h4,
+.pricing-list li i,
+.list-link li a:hover,
+.social-network li a:hover,
+.social-network li a:focus,
+.social-network li a:active,
+.recent li h6 a:hover,
+.dropdown-cart li  h6 a:hover,
+.twitter-icon{
+	color:#d33939;
+}
+
+/*
+Background color
+=========================== */
+.form-boxed .btn,
+a.openpanel,
+.demo-panel h6,
+#toTopHover{
+	background-color:#d33939;
+}
+
+/*
+Border color
+=========================== */
+.btn-primary,
+.form-control:focus{
+	border-color:#d33939;
+}
+
+/*
+Hover background color
+=========================== */
+.btn-bordered.btn-primary:hover,
+.btn-bordered.btn-primary:focus,
+.btn-bordered.btn-primary:active,
+.form-boxed .btn:hover{
+	background-color:#eb5858;
+}
+
+/*
+Hover border color
+=========================== */
+.btn-bordered.btn-primary:hover,
+.btn-bordered.btn-primary:focus,
+.btn-bordered.btn-primary:active{
+	border-color:#eb5858;
+}
+
+

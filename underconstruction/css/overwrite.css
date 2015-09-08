@@ -1,0 +1,221 @@
+/* ==============================================================
+
+Template name : Tooku - crative bootstrap template
+Categorie : Site template
+Author : Nce18cex
+Version : v1.0.0
+Created : 28 Juny 2015
+Last update : 30 August 2015
+
+-----------------------------------------------------------------
+CSS structure
+-----------------------------------------------------------------
+
+01. Typography
+02. Blockquote
+03. Tooltip
+04. Modal
+05. Navigation
+06. Form
+07. Button
+08. Progress Bar
+	
+============================================================== */
+
+/*
+Typography
+=========================== */
+body {
+	background:#fff;
+	font-family:'open_sans';
+	font-size:14px;
+	line-height:30px;
+	color:#595959;
+    overflow-x:hidden;
+    width:100%;
+	height:100%;
+}
+
+a,
+a:active,
+a:focus,
+a:hover{
+	outline:none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color:#0b0b0b;
+	text-transform:uppercase;
+	font-weight:700;
+	margin:0 0 10px 0;
+}
+
+h1{
+	font-size:48px;
+	line-height:52px;
+}
+
+h2{
+	font-size:36px;
+	line-height:48px;
+}
+
+h3{
+	font-size:30px;
+	line-height:36px;
+}
+
+h4{
+	font-size:24px;
+	line-height:30px;
+}
+
+h5{
+	font-size:18px;
+	line-height:24px;
+}
+
+h6{
+	font-size:14px;
+	line-height:18px;
+}
+
+p{
+	margin-bottom:20px;
+}
+
+label{
+	color:#0b0b0b;
+}
+
+.alignleft{
+	float:left;
+	margin:0 20px 20px 0;
+}
+
+.alignright{
+	float:left;
+	margin:0 0 20px 20px;
+}
+
+/*
+Navbar
+=========================== */
+.navbar{
+	border:none;
+	border-radius: 0;
+	min-height:65px;
+	background:#0b0b0b;
+	margin:0;
+}
+
+.navbar-brand{
+	padding:20px 15px;
+	margin:0;
+	text-align:center;
+	min-height:65px;
+}
+
+.navbar-nav{
+	margin-top:17px;
+}
+
+/*
+Form
+=========================== */
+.form-control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 6px 15px;
+  font-size: 12px;
+  font-style:italic;
+  line-height: 1.42857143;
+  color:#8c8c8c;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-control:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.form-control::-moz-placeholder {
+  color: #ababab;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #ababab;
+}
+.form-control::-webkit-input-placeholder {
+  color: #ababab;
+}
+
+/*
+Button
+=========================== */
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform:uppercase;
+	border-radius: 0;
+}
+
+.btn-default {
+	color: #fff;
+	background-color: #0b0b0b;
+	border-color: #0b0b0b;
+}
+
+.btn-default.btn-bordered{
+	color: #0b0b0b;
+	background:none;
+}
+
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:hover {
+	color: #fff;
+	background-color: #212121;
+	border-color: #212121;
+}
+
+.btn-primary.btn-bordered{
+	background:none;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:hover,
+.btn-primary.btn-bordered:focus,
+.btn-primary.btn-bordered.focus,
+.btn-primary.btn-bordered:hover{
+  color: #fff;
+}
+
+
+
+
+

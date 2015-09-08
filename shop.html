@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="ico/favicon.png">
+
+    <title>Tooku - crative bootstrap template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Font -->
+	<link href="fonts/open-sans/stylesheet.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="css/icons.css" rel="stylesheet">
+	
+    <!-- Overwrite bootstrap style -->
+    <link href="css/overwrite.css" rel="stylesheet">
+	
+	<!-- Owl carousel -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+	
+	<!-- Flexslider -->
+    <link href="css/flexslider.css" rel="stylesheet">
+	
+    <!-- prettyPhoto -->	
+	<link href="css/prettyPhoto.css" rel="stylesheet">	
+	
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Skins style -->
+    <link id="skin" href="skins/default.css" rel="stylesheet">
+	
+  </head>
+
+  <body>
+	<!-- Start preloading -->
+	<div id="loading" class="loading-invisible">
+		<div class="loading-center">
+			<div class="loading-center-absolute">
+				<div class="object" id="object_one"></div>
+				<div class="object" id="object_two"></div>
+				<div class="object" id="object_three"></div>
+				<div class="object" id="object_four"></div>
+				<div class="object" id="object_five"></div>
+				<div class="object" id="object_six"></div>
+				<div class="object" id="object_seven"></div>
+				<div class="object" id="object_eight"></div>
+				<div class="object" id="object_big"></div>
+			</div>
+			<p>Please wait...</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		  document.getElementById("loading").className = "loading-visible";
+		  var hideDiv = function(){document.getElementById("loading").className = "loading-invisible";};
+		  var oldLoad = window.onload;
+		  var newLoad = oldLoad ? function(){hideDiv.call(this);oldLoad.call(this);} : hideDiv;
+		  window.onload = newLoad;
+	</script>
+	<!-- End preloading -->
+	
+ 	<!-- Start demo options -->
+	<div class="demo-panel">
+		<h6>Color options</h6>
+		<ul class="stylechanger tooltips">
+			<li><a id="color1" href="shop.html#" data-skin="default.css"></a></li>
+			<li><a id="color2" href="shop.html#" data-skin="pink.css"></a></li>				
+			<li><a id="color3" href="shop.html#" data-skin="navy.css"></a></li>
+			<li><a id="color4" href="shop.html#" data-skin="blue.css"></a></li>	
+			<li><a id="color5" href="shop.html#" data-skin="orange.css"></a></li>
+			<li><a id="color6" href="shop.html#" data-skin="purple.css"></a></li>
+			<li><a id="color7" href="shop.html#" data-skin="violet.css"></a></li>
+			<li><a id="color8" href="shop.html#" data-skin="green.css"></a></li>			
+			<li><a id="color9" href="shop.html#" data-skin="misty.css"></a></li>
+			<li><a id="color10" href="shop.html#" data-skin="yellow.css"></a></li>				
+		</ul>
+		<div class="clearfix"></div>
+		<h6>Index variants</h6>
+		<ul class="layout">
+			<li class="full">
+				<a href="index.html" class="btn btn-bordered btn-primary btn-block">index alt1</a>
+			</li>
+			<li class="full">
+				<a href="index-alt1.html" class="btn btn-bordered btn-primary btn-block">index alt2</a>
+			</li>
+			<li class="full">
+				<a href="index-alt2.html" class="btn btn-bordered btn-primary btn-block">index alt3</a>
+			</li>
+			<li class="full">
+				<a href="index-alt3.html" class="btn btn-bordered btn-primary btn-block">index alt4</a>
+			</li>
+			<li class="full">
+				<a href="index-alt4.html" class="btn btn-bordered btn-primary btn-block">index alt5</a>
+			</li>
+			<li class="full">
+				<a href="index-alt5.html" class="btn btn-bordered btn-primary btn-block">index alt6</a>
+			</li>
+		</ul>
+		<div class="clearfix"></div>
+		<h6>Bonus</h6>
+		<ul class="layout">
+			<li class="full">
+				<a href="underconstruction/index.html" target="_blank" class="btn btn-bordered btn-primary btn-block">underconstruction</a>
+			</li>
+		</ul>
+	</div>	
+	<a class="openpanel" href="shop.html#" title=""><i class="icon-equalizer2"></i></a>
+	<!-- End demo options --> 
+	
+	<!-- Start theme containt -->
+	<div id="wrapper">
+		<!-- Start navbar -->
+			<nav class="navbar yamm">
+				<div class="container">
+					<!-- Start navbar-header -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="shop.html#"><img src="img/logo.png" alt="" /></a>
+					</div>
+					<!-- End navbar-header -->
+					
+					<!-- Start nav-collapse -->
+					<div id="navbar" class="collapse navbar-collapse">
+						<div class="right-containt">
+							<div class="btn-group">
+								<a href="shop.html#" class="cart dropdown-toggle" data-toggle="dropdown"><i class="icon-cart"></i><span>3</span></a>
+								<ul class="dropdown-menu dropdown-cart">
+									<li>
+										<a href="shop.html#" class="cart-thumb"><img src="img/product/thumbs/thumb01.jpg" alt="" /></a>
+										<h6><a href="shop.html#">Delica omittantur</a></h6>
+										2x<span class="price">$99</span>
+									</li>
+									<li>
+										<a href="shop.html#" class="cart-thumb"><img src="img/product/thumbs/thumb02.jpg" alt="" /></a>
+										<h6><a href="shop.html#">Causae probatus</a></h6>
+										1x<span class="price">$90</span>
+									</li>
+									<li>
+										<a href="shop.html#" class="cart-thumb"><img src="img/product/thumbs/thumb03.jpg" alt="" /></a>
+										<h6><a href="shop.html#">Blandit quaestio</a></h6>
+										1x<span class="price">$90</span>
+									</li>
+									<li class="cart-action">
+										<div class="btn-horizontal">
+											<a href="shopping-cart.html" class="btn btn-primary btn-bordered btn-block">View cart</a>
+											<a href="shopping-checkout.html" class="btn btn-primary btn-block">Checkout</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="btn-group search-group">
+								<a href="shop.html#" class="search dropdown-toggle" data-toggle="dropdown"><i class="icon-search2"></i></a>
+								<div class="dropdown-menu dropdown-search">
+									<form>
+										<fieldset class="search-form">
+											<input class="search-input" type="text" placeholder="Start searching..." />
+											<button class="btn-search" type="button"><i class="icon-search2"></i></button>
+										</fieldset>	
+									</form>
+								</div>
+							</div>
+						</div>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="shop.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">Home <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="index.html">Index alt 1</a></li>
+									<li><a href="index-alt1.html">Index alt 2</a></li>
+									<li><a href="index-alt2.html">Index alt 3</a></li>
+									<li><a href="index-alt3.html">Index alt 4</a></li>
+									<li><a href="index-alt4.html">Index alt 5</a></li>
+									<li><a href="index-alt5.html">Index alt 6</a></li>
+								</ul>
+							</li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li class="dropdown">
+								<a href="shop.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">Blog <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="blog-alt1-leftsidebar.html">Blog alt 1</a></li>
+									<li><a href="blog-alt1-rightsidebar.html">Blog alt 2</a></li>
+									<li><a href="blog-alt2-leftsidebar.html">Blog alt 3</a></li>
+									<li><a href="blog-alt2-rightsidebar.html">Blog alt 4</a></li>
+									<li><a href="singlepost-leftsidebar.html">Single post alt 1</a></li>
+									<li><a href="singlepost-rightsidebar.html">Single post alt 2</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="shop.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">Portfolio <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="portfolio-alt1.html">Portfolio alt 1</a></li>
+									<li><a href="portfolio-alt2.html">Portfolio alt 2</a></li>
+									<li><a href="portfolio-alt3.html">Portfolio alt 3</a></li>
+									<li><a href="portfolio-alt4.html">Portfolio alt 4</a></li>
+									<li><a href="portfolio-detail.html">Portfolio detail</a></li>
+								</ul>
+							</li>
+							<li class="dropdown active yamm-fullwidth">
+								<a href="shop.html#" class="dropdown-toggle" data-toggle="dropdown">Page<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li class="container">
+										<div class="row">
+											<div class="col-md-1 widget">
+												<h6>Page</h6>
+												<ul class="yamm-link">
+													<li><a href="about.html">About</a></li>
+													<li><a href="services.html">Services</a></li>
+													<li><a href="testimoni.html">Testimoni</a></li>
+													<li><a href="faq.html">F.A.Q</a></li>
+													<li><a href="pricing.html">Pricing</a></li>
+													<li><a href="404.html">404 page</a></li>
+												</ul>
+											</div>
+											<div class="col-md-1 widget">
+												<h6>Extra</h6>
+												<ul class="yamm-link">
+													<li><a href="grid.html">Grid</a></li>
+													<li><a href="accordion.html">Accordion</a></li>
+													<li><a href="buttons.html">Button</a></li>
+													<li><a href="form.html">Form</a></li>
+													<li><a href="tabs.html">Tabs</a></li>
+													<li><a href="typography.html">Typography</a></li>
+												</ul>
+											</div>
+											<div class="col-md-1 widget">
+												<h6>Shopping</h6>
+												<ul class="yamm-link">
+													<li><a href="shop.html">Shop page</a></li>
+													<li><a href="shop-detail.html">Shop detail</a></li>
+													<li><a href="shopping-cart.html">Cart</a></li>
+													<li><a href="shopping-checkout.html">Checkout</a></li>
+												</ul>
+											</div>
+											<div class="col-md-3 widget">
+												<h6>Form widget</h6>
+												<form class="contact-widget">
+													<ul>
+														<li><input class="form-control" type="text" placeholder="Your name" /></li>
+														<li><input class="form-control" type="text" placeholder="Your email" /></li>
+														<li class="full-width"><textarea class="form-control" rows="3" placeholder="Your message"></textarea></li>
+														<li><button class="btn btn-primary" type="button">Send</button></li>
+													</ul>
+												</form>
+											</div>
+											<div class="col-md-3 widget">
+												<h6>Recent post</h6>
+												<ul class="recent">
+													<li>
+														<a href="shop.html#" class="post-thumb" ><img src="img/blog/thumbs/thumb01.jpg" class="img-responsive" alt="" /></a>
+														<h6><a href="shop.html#">Sale ipsum ea vel nemore</a></h6>
+														<p>
+														Nam modo hinc an, ancillae oportere assueverit an vim, dicit minimum.
+														</p>
+													</li>
+													<li>
+														<a href="shop.html#" class="post-thumb" ><img src="img/blog/thumbs/thumb02.jpg" class="img-responsive" alt="" /></a>
+														<h6><a href="shop.html#">Sale ipsum ea vel nemore</a></h6>
+														<p>
+														Nam modo hinc an, ancillae oportere assueverit an vim, dicit minimum.
+														</p>
+													</li>
+												</ul>
+											</div>
+											<div class="col-md-3 widget">
+												<h6>Popular item</h6>
+												<ul class="popular-item">
+													<li><a href="shop.html"><img src="img/gallery/thumbs/thumb01.jpg" class="img-responsive" alt="" /></a></li>
+													<li><a href="shop.html"><img src="img/gallery/thumbs/thumb02.jpg" class="img-responsive" alt="" /></a></li>
+													<li><a href="shop.html"><img src="img/gallery/thumbs/thumb03.jpg" class="img-responsive" alt="" /></a></li>
+													<li><a href="shop.html"><img src="img/gallery/thumbs/thumb04.jpg" class="img-responsive" alt="" /></a></li>
+													<li><a href="shop.html"><img src="img/gallery/thumbs/thumb05.jpg" class="img-responsive" alt="" /></a></li>
+													<li><a href="shop.html"><img src="img/gallery/thumbs/thumb06.jpg" class="img-responsive" alt="" /></a></li>
+													<li><a href="shop.html"><img src="img/gallery/thumbs/thumb07.jpg" class="img-responsive" alt="" /></a></li>
+													<li><a href="shop.html"><img src="img/gallery/thumbs/thumb08.jpg" class="img-responsive" alt="" /></a></li>
+													<li><a href="shop.html"><img src="img/gallery/thumbs/thumb09.jpg" class="img-responsive" alt="" /></a></li>
+													<li><a href="shop.html"><img src="img/gallery/thumbs/thumb10.jpg" class="img-responsive" alt="" /></a></li>
+													<li><a href="shop.html"><img src="img/gallery/thumbs/thumb11.jpg" class="img-responsive" alt="" /></a></li>
+													<li><a href="shop.html"><img src="img/gallery/thumbs/thumb12.jpg" class="img-responsive" alt="" /></a></li>
+													<li><a href="shop.html"><img src="img/gallery/thumbs/thumb01.jpg" class="img-responsive" alt="" /></a></li>
+													<li><a href="shop.html"><img src="img/gallery/thumbs/thumb02.jpg" class="img-responsive" alt="" /></a></li>
+													<li><a href="shop.html"><img src="img/gallery/thumbs/thumb03.jpg" class="img-responsive" alt="" /></a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<!-- End nav-collapse -->
+				</div>
+			</nav>
+		<!-- End navbar -->
+		
+		<!-- Start inner head -->
+		<div class="inner-header">
+			<div class="inner-overlay">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<h3><i class="icon-basket"></i> Shopping</h3>
+						</div>
+						<div class="col-md-6 col-sm-6 text-right">
+							<ol class="breadcrumb">
+							  <li><a href="shop.html#">Home</a></li>
+							  <li><a href="shop.html#">Page</a></li>
+							  <li><a href="shop.html#" class="active">Shop</a></li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End inner head -->
+		
+		<!-- Start inner page -->
+		<div class="inner-page">
+			<div class="container">
+				<div class="row">
+					<!-- Start aside -->
+					<div class="col-md-3 col-sm-3">
+						<aside>
+							<div class="widget">
+								<h5 class="widget-title">Categories</h5>
+								<ul class="cat">
+									<li><a href="shop.html#"><i class="icon-pencil"></i> T-shirt</a></li>
+									<li><a href="shop.html#"><i class="icon-pencil"></i> Shirt</a></li>
+									<li><a href="shop.html#"><i class="icon-pencil"></i> Accessories</a></li>
+									<li><a href="shop.html#"><i class="icon-pencil"></i> Pants</a></li>
+									<li><a href="shop.html#"><i class="icon-pencil"></i> Bags</a></li>
+									<li><a href="shop.html#"><i class="icon-pencil"></i> Footwear</a></li>
+								</ul>
+							</div>
+							<div class="widget">
+								<h5 class="widget-title">Filter</h5>
+								<div id="filters">
+									<div class='filter-attributes form-inline'>
+										<h6>Color :</h6>
+										<div class="form-group"><input type='checkbox' name='colour' id='red' value='red' /> <span>Red</span></div>
+										<div class="form-group"><input type='checkbox' name='colour' id='blue' value='blue' /> <span>Blue</span></div>
+										<div class="form-group"><input type='checkbox' name='colour' id='green' value='green'> <span>Green</span></div>
+										<div class="form-group"><input type='checkbox' name='colour' id='yellow' value='yellow'> <span>Yellow</span></div>
+									</div>
+									<div class='filter-attributes form-inline'>
+										<h6>Size :</h6>
+										<div class="form-group"><input type='checkbox' name='size' id='small' value='small' /> <span>Small</span></div>
+										<div class="form-group"><input type='checkbox' name='size' id='medium' value='medium'> <span>Medium</span></div>
+										<div class="form-group"><input type='checkbox' name='size' id='large' value='large'> <span>Large</span></div>
+									</div>
+									<div class='filter-attributes form-inline'>
+										<h6>Genre :</h6>
+										<div class="form-group"><input type='checkbox' name='genre' id='man' value='man'> <span>Man</span></div>
+										<div class="form-group"><input type='checkbox' name='genre' id='women' value='women'> <span>Women</span></div>
+										<div class="form-group"><input type='checkbox' name='genre' id='kids' value='kids'> <span>Kids</span></div>
+									</div>
+									<div>
+										<input type='button' id='none' class="btn btn-primary" value='Clear filter' />
+									</div>
+								</div>
+							</div>
+							<div class="widget">
+								<h5 class="widget-title">Popular item</h5>
+								<ul class="recent">
+									<li>
+										<a href="shop.html#" class="post-thumb" ><img src="img/product/prod03.jpg" class="img-maxwidth" alt="" /></a>
+										<h6><a href="shop.html#">Sale ipsum ea nemore</a></h6>
+										<p>
+										<del>$100</del>
+										<span class="price">$60</span>
+										</p>
+									</li>
+									<li>
+										<a href="shop.html#" class="post-thumb" ><img src="img/product/prod06.jpg" class="img-maxwidth" alt="" /></a>
+										<h6><a href="shop.html#">Et insolens assentior</a></h6>
+										<p>
+										<span class="price">$99</span>
+										</p>
+									</li>
+									<li>
+										<a href="shop.html#" class="post-thumb" ><img src="img/product/prod08.jpg" class="img-maxwidth" alt="" /></a>
+										<h6><a href="shop.html#">Unum postea alienum</a></h6>
+										<p>
+										<span class="price">$99</span>
+										</p>
+									</li>
+									<li>
+										<a href="shop.html#" class="post-thumb" ><img src="img/product/prod10.jpg" class="img-maxwidth" alt="" /></a>
+										<h6><a href="shop.html#">Singulis posidonium </a></h6>
+										<p>
+										<span class="price">$99</span>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="widget">
+								<h5 class="widget-title">Tags</h5>
+								<ul class="tags">
+									<li><a href="shop.html#"><i class="icon-pricetags"></i> Man</a></li>
+									<li><a href="shop.html#"><i class="icon-pricetags"></i> Women</a></li>
+									<li><a href="shop.html#"><i class="icon-pricetags"></i> Sale</a></li>
+									<li><a href="shop.html#"><i class="icon-pricetags"></i> Modern</a></li>
+									<li><a href="shop.html#"><i class="icon-pricetags"></i> Old</a></li>
+									<li><a href="shop.html#"><i class="icon-pricetags"></i> White</a></li>
+									<li><a href="shop.html#"><i class="icon-pricetags"></i> Black</a></li>
+									<li><a href="shop.html#"><i class="icon-pricetags"></i> Photos</a></li>
+									<li><a href="shop.html#"><i class="icon-pricetags"></i> Kids</a></li>
+									<li><a href="shop.html#"><i class="icon-pricetags"></i> Resource</a></li>
+									<li><a href="shop.html#"><i class="icon-pricetags"></i> Colorful</a></li>
+								</ul>
+							</div>
+						</aside>
+					</div>
+					<!-- End aside -->
+					
+					<!-- Start shop -->
+					<div class="col-md-9 col-sm-9">
+						<div class="row">
+							<div class="col-md-4 col-sm-4 marginbot20">
+								<label class=" margin-left10">Sort by :</label>
+								<select class="form-control margin-left10">
+									<option>Sort by latest item</option>
+									<option>Sort by popular item</option>
+									<option>Sort by low-height price</option>
+									<option>Sort by height-low price</option>
+								</select>
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<div class="result">
+									<label>Showing :</label>
+									<span>1-12 of 102 results</span>
+								</div>	
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 grid-products" data-colour='red' data-size='small'  data-genre='man'>
+								<div class="product-wrapper">
+									<div class="product-img">
+										<span class="sale">Sale</span>
+										<div class="product-caption">
+											<a href="shop-detail.html" class="btn btn-bordered btn-primary detail"><i class="icon-link"></i> Detail</a>
+											<a href="shop.html#" class="btn btn-primary buy"><i class="icon-cart"></i> Buy</a>
+										</div>
+										<img src="img/product/prod01.jpg" class="img-responsive" alt="" />
+									</div>
+									<div class="product-title">
+										<h6><a href="shop.html#">Aliquip nusquam</a></h6>
+										<div class="reviews">
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="half-star"></span>
+											<span class="empaty-star"></span>
+										</div>
+										<del>$100</del>
+										<span class="price">$60</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 grid-products" data-colour='yellow' data-size='large' data-genre='man'>
+								<div class="product-wrapper">
+									<div class="product-img">
+										<span class="sale">Sale</span>
+										<div class="product-caption">
+											<a href="shop-detail.html" class="btn btn-bordered btn-primary detail"><i class="icon-link"></i> Detail</a>
+											<a href="shop.html#" class="btn btn-primary buy"><i class="icon-cart"></i> Buy</a>
+										</div>
+										<img src="img/product/prod02.jpg" class="img-responsive" alt="" />
+									</div>
+									<div class="product-title">
+										<h6><a href="shop.html#">Doming tractatos</a></h6>
+										<div class="reviews">
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="half-star"></span>
+											<span class="empaty-star"></span>
+										</div>
+										<del>$100</del>
+										<span class="price">$60</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 grid-products" data-colour='blue' data-size='large' data-genre='women'>
+								<div class="product-wrapper">
+									<div class="product-img">
+										<div class="product-caption">
+											<a href="shop-detail.html" class="btn btn-bordered btn-primary detail"><i class="icon-link"></i> Detail</a>
+											<a href="shop.html#" class="btn btn-primary buy"><i class="icon-cart"></i> Buy</a>
+										</div>
+										<img src="img/product/prod03.jpg" class="img-responsive" alt="" />
+									</div>
+									<div class="product-title">
+										<h6><a href="shop.html#">Debet ubique</a></h6>
+										<div class="reviews">
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="half-star"></span>
+											<span class="empaty-star"></span>
+										</div>
+										<span class="price">$99</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 grid-products" data-colour='green' data-size='medium' data-genre='women'>
+								<div class="product-wrapper">
+									<div class="product-img">
+										<div class="product-caption">
+											<a href="shop-detail.html" class="btn btn-bordered btn-primary detail"><i class="icon-link"></i> Detail</a>
+											<a href="shop.html#" class="btn btn-primary buy"><i class="icon-cart"></i> Buy</a>
+										</div>
+										<img src="img/product/prod04.jpg" class="img-responsive" alt="" />
+									</div>
+									<div class="product-title">
+										<h6><a href="shop.html#">Mundi quando</a></h6>
+										<div class="reviews">
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="half-star"></span>
+											<span class="empaty-star"></span>
+										</div>
+										<span class="price">$99</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 grid-products" data-colour='red' data-size='medium' data-genre='man'>
+								<div class="product-wrapper">
+									<div class="product-img">
+										<div class="product-caption">
+											<a href="shop-detail.html" class="btn btn-bordered btn-primary detail"><i class="icon-link"></i> Detail</a>
+											<a href="shop.html#" class="btn btn-primary buy"><i class="icon-cart"></i> Buy</a>
+										</div>
+										<img src="img/product/prod05.jpg" class="img-responsive" alt="" />
+									</div>
+									<div class="product-title">
+										<h6><a href="shop.html#">Theophrastus</a></h6>
+										<div class="reviews">
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="half-star"></span>
+											<span class="empaty-star"></span>
+										</div>
+										<span class="price">$99</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 grid-products" data-colour='green' data-size='large' data-genre='man'>
+								<div class="product-wrapper">
+									<div class="product-img">
+										<div class="product-caption">
+											<a href="shop-detail.html" class="btn btn-bordered btn-primary detail"><i class="icon-link"></i> Detail</a>
+											<a href="shop.html#" class="btn btn-primary buy"><i class="icon-cart"></i> Buy</a>
+										</div>
+										<img src="img/product/prod06.jpg" class="img-responsive" alt="" />
+									</div>
+									<div class="product-title">
+										<h6><a href="shop.html#">Adhuc utamur</a></h6>
+										<div class="reviews">
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="half-star"></span>
+											<span class="empaty-star"></span>
+										</div>
+										<span class="price">$99</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 grid-products" data-colour='blue' data-size='medium' data-genre='women'>
+								<div class="product-wrapper">
+									<div class="product-img">
+										<div class="product-caption">
+											<a href="shop-detail.html" class="btn btn-bordered btn-primary detail"><i class="icon-link"></i> Detail</a>
+											<a href="shop.html#" class="btn btn-primary buy"><i class="icon-cart"></i> Buy</a>
+										</div>
+										<img src="img/product/prod07.jpg" class="img-responsive" alt="" />
+									</div>
+									<div class="product-title">
+										<h6><a href="shop.html#">Imperdiet sed</a></h6>
+										<div class="reviews">
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="half-star"></span>
+											<span class="empaty-star"></span>
+										</div>
+										<span class="price">$99</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 grid-products" data-colour='yellow' data-size='small' data-genre='women'>
+								<div class="product-wrapper">
+									<div class="product-img">
+										<span class="sold">sold</span>
+										<div class="product-caption">
+											<a href="shop-detail.html" class="btn btn-bordered btn-primary detail"><i class="icon-link"></i> Detail</a>
+											<a href="shop.html#" class="btn btn-primary buy"><i class="icon-cart"></i> Buy</a>
+										</div>
+										<img src="img/product/prod08.jpg" class="img-responsive" alt="" />
+									</div>
+									<div class="product-title">
+										<h6><a href="shop.html#">Ridens facilisi</a></h6>
+										<div class="reviews">
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="half-star"></span>
+											<span class="empaty-star"></span>
+										</div>
+										<span class="price">$99</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 grid-products" data-colour='blue' data-size='large' data-genre='women'>
+								<div class="product-wrapper">
+									<div class="product-img">
+										<span class="sold">sold</span>
+										<div class="product-caption">
+											<a href="shop-detail.html" class="btn btn-bordered btn-primary detail"><i class="icon-link"></i> Detail</a>
+											<a href="shop.html#" class="btn btn-primary buy"><i class="icon-cart"></i> Buy</a>
+										</div>
+										<img src="img/product/prod09.jpg" class="img-responsive" alt="" />
+									</div>
+									<div class="product-title">
+										<h6><a href="shop.html#">Tritani docendi</a></h6>
+										<div class="reviews">
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="full-star"></span>
+											<span class="half-star"></span>
+											<span class="empaty-star"></span>
+										</div>
+										<span class="price">$99</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<ul class="pagination">
+							<li class="disabled"><a href="shop.html#">Prev</a></li>
+							<li class="active"><a href="shop.html#">1</a></li>
+							<li><a href="shop.html#">2</a></li>
+							<li><a href="shop.html#">3</a></li>
+							<li><a href="shop.html#">4</a></li>
+							<li><a href="shop.html#">5</a></li>
+							<li><a href="shop.html#">Next</a></li>
+						</ul>
+					</div>
+					<!-- End shop -->
+				</div>
+			</div>
+		</div>
+		<!-- End inner page -->
+
+		<!-- Start footer -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 widget">
+						<h6>Contact us</h6>
+						<ul class="list">
+							<li>(021) 1234 5678 90</li>
+							<li>info@yourdomain.com</li>
+						</ul>
+					</div>
+					<div class="col-md-1 widget">
+						<ul class="list-link">
+							<li><a href="shop.html#">Home</a></li>
+							<li><a href="shop.html#">About</a></li>
+							<li><a href="shop.html#">Services</a></li>
+							<li><a href="shop.html#">Team</a></li>
+						</ul>
+					</div>
+					<div class="col-md-2 widget">
+						<ul class="list-link">
+							<li><a href="shop.html#">Aeque molestie</a></li>
+							<li><a href="shop.html#">Stet nostrud fastidii</a></li>
+							<li><a href="shop.html#">Expetenda</a></li>
+							<li><a href="shop.html#">Doctus vocent</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 widget">
+						<h6>SUBSCRIBE TO OUR NEWSLETTER</h6>
+						<form>
+							<fieldset class="subscribe-form">
+								<input class="subscribe" type="text" placeholder="Enter your email address" />
+								<button class="btn-subscribe" type="button">Submit</button>
+							</fieldset>	
+						</form>
+						<ul class="social-network">
+							<li><label>Follow us :</label></li>
+							<li><a href="shop.html#"><i class="icon-facebook2"></i></a></li>
+							<li><a href="shop.html#"><i class="icon-twitter4"></i></a></li>
+							<li><a href="shop.html#"><i class="icon-google-plus2"></i></a></li>
+							<li><a href="shop.html#"><i class="icon-skype"></i></a></li>
+							<li><a href="shop.html#"><i class="icon-dribbble4"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 widget">
+						<ul class="popular-item">
+							<li><a href="shop.html"><img src="img/gallery/thumbs/thumb01.jpg" class="img-responsive" alt="" /></a></li>
+							<li><a href="shop.html"><img src="img/gallery/thumbs/thumb02.jpg" class="img-responsive" alt="" /></a></li>
+							<li><a href="shop.html"><img src="img/gallery/thumbs/thumb03.jpg" class="img-responsive" alt="" /></a></li>
+							<li><a href="shop.html"><img src="img/gallery/thumbs/thumb04.jpg" class="img-responsive" alt="" /></a></li>
+							<li><a href="shop.html"><img src="img/gallery/thumbs/thumb05.jpg" class="img-responsive" alt="" /></a></li>
+							<li><a href="shop.html"><img src="img/gallery/thumbs/thumb06.jpg" class="img-responsive" alt="" /></a></li>
+							<li><a href="shop.html"><img src="img/gallery/thumbs/thumb07.jpg" class="img-responsive" alt="" /></a></li>
+							<li><a href="shop.html"><img src="img/gallery/thumbs/thumb08.jpg" class="img-responsive" alt="" /></a></li>
+							<li><a href="shop.html"><img src="img/gallery/thumbs/thumb09.jpg" class="img-responsive" alt="" /></a></li>
+							<li><a href="shop.html"><img src="img/gallery/thumbs/thumb10.jpg" class="img-responsive" alt="" /></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="subfooter">
+				<p class="copyright">2015 &copy; Copyright <a href="http://99webpage.com/">nce18cex</a> &#45; All Rights Reserved</p>
+			</div>
+		</footer>
+		<!-- End footer -->
+	</div>
+	<!-- End theme containt -->
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+	
+    <script src="js/bootstrap.min.js"></script>
+	
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+	
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+	
+	<script src="js/jquery.easing.1.3.js"></script>
+
+	<!-- ticker -->
+	<script src="js/ticker/ticker.js"></script>
+	<script src="js/ticker/setting.js"></script>
+
+	<!-- Go to top -->
+	<script src="js/totop/jquery.ui.totop.js"></script>	
+	<script src="js/totop/setting.js"></script>
+
+	<!-- Product filter -->
+	<script src="js/product/product-filter.js"></script>
+	<script src="js/product/setting.js"></script>
+	
+	<!-- Custom checkbox and radio -->
+	<script src="js/checkator/fm.checkator.jquery.js"></script>
+	<script src="js/checkator/setting.js"></script>
+
+	<!-- parallax -->
+	<script src="js/parallax/jquery.parallax-1.1.3.js"></script>
+	<script src="js/parallax/setting.js"></script>
+
+	<!-- Sticky -->
+	<script src="js/sticky/jquery.sticky.js"></script>
+	<script src="js/sticky/setting.js"></script>
+	
+	<!-- custom javascript -->
+	<script src="js/custom.js"></script>
+	
+	<!-- Theme option-->
+	<script src="js/theme-option/demosetting.js"></script>	
+  </body>
+</html>
