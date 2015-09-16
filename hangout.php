@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="ico/favicon.png">
 
-    <title>I-MiNOR </title>
+    <title>I-MiNOR - Event</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -191,7 +191,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 col-sm-6">
-							<h3><i class="icon-book-open"></i> BUKA BERSAMA & BAKTI SOSIAL MEMBER I-MiNOR</h3>
+							<h3><i class="icon-book-open"></i> Hangout Member I-MiNOR </h3>
 						</div>
 						<div class="col-md-6 col-sm-6 text-right">
 							<ol class="breadcrumb">
@@ -213,26 +213,23 @@
 					<div class="col-md-9 col-sm-9">
 						<!-- Start article 1 -->
 							<div class="article-post">
-								<a href="blog-alt2-rightsidebar.html#"><img src="img/foto/Panti.jpg" class="article-media img-responsive" alt="" /></a>
+								<a href="blog-alt2-rightsidebar.html#"><img src="img/foto/hangout6.jpg" class="article-media img-responsive" alt="" /></a>
 								<article>
 									<div class="article-title">
 										<div class="post-date"><span>12</span>Sept</div>
-										<h5><a href="#">BUKA BERSAMA & BAKTI SOSIAL MEMBER I-MiNOR</a></h5>
+										<h5><a href="#">Hangout Member I-MiNOR </a></h5>
 										
 									</div>
 									<p>
-									Jenis Kegiatan	: BUKA BERSAMA & BAKTI SOSIAL MEMBER I-MiNOR <br>
+									Jenis Kegiatan	: HALAL BIHALAL MEMBER I-MiNOR <br>
 									<br>
-Waktu 		: 28 Juni 2015 <br>
-<br>
-Tempat 		: Panti Asuhan Wishma Putra <br>
+Tempat		: CAFE HALAMAN SELASIH JL.CIKUTRA BANDUNG <br>
 <br>
 Detail Kegiatan	: <br>
-Acara ini di adakan dalam rangka mempererat persaudaraan <br> 
-antar Official dan  Member I-MiNOR, <br> 
-Serta menumbuhkan empati dan kepedulian terhadap sesama manusia, <br>
-terutama pada orang-orang yang mengalami kekurangan. <br>
-
+Acara ini di selenggarakan sebagai ajang silaturahmi <br>
+serta halal bihalal setelah hari raya Idul Fitri 2015. <br>
+Bertempat di sebuah cafe di Bandung, sehingga suasananya tidak terkesan kaku, <br>
+sehingga diharapkan dapat menciptakan keakraban antar official dan member I-MiNOR. <br>
 									</p>
 									
 								</article>

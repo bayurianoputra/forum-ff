@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="ico/favicon.png">
 
-    <title>I-MiNOR </title>
+    <title>I-MiNOR - Event</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -130,7 +130,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="blog-alt2-rightsidebar.html#"><img src="img/logo.png" alt="" /></a>
+						<a class="navbar-brand" href="#"><img src="" alt="" /></a>
 					</div>
 					<!-- End navbar-header -->
 					
@@ -191,12 +191,12 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 col-sm-6">
-							<h3><i class="icon-book-open"></i> BUKA BERSAMA & BAKTI SOSIAL MEMBER I-MiNOR</h3>
+							<h3><i class="icon-book-open"></i> Event</h3>
 						</div>
 						<div class="col-md-6 col-sm-6 text-right">
 							<ol class="breadcrumb">
-							  <li><a href="index.php#">Back To Home</a></li>
-							  <
+							  <li><a href="index.php#">back To Home</a></li>
+							  
 							</ol>
 						</div>
 					</div>
@@ -217,24 +217,13 @@
 								<article>
 									<div class="article-title">
 										<div class="post-date"><span>12</span>Sept</div>
-										<h5><a href="#">BUKA BERSAMA & BAKTI SOSIAL MEMBER I-MiNOR</a></h5>
+										<h5><a href="blog-alt2-rightsidebar.html#">Kegiatan Bakti Sosial I-MiNOR bersama anak anak panti asuhan</a></h5>
 										
 									</div>
 									<p>
-									Jenis Kegiatan	: BUKA BERSAMA & BAKTI SOSIAL MEMBER I-MiNOR <br>
-									<br>
-Waktu 		: 28 Juni 2015 <br>
-<br>
-Tempat 		: Panti Asuhan Wishma Putra <br>
-<br>
-Detail Kegiatan	: <br>
-Acara ini di adakan dalam rangka mempererat persaudaraan <br> 
-antar Official dan  Member I-MiNOR, <br> 
-Serta menumbuhkan empati dan kepedulian terhadap sesama manusia, <br>
-terutama pada orang-orang yang mengalami kekurangan. <br>
-
+										
 									</p>
-									
+									<a href="blog-alt2-rightsidebar.html#" class="btn btn-default">Read more</a>
 								</article>
 							</div>
 						<!-- End article 1 -->
@@ -243,33 +232,30 @@ terutama pada orang-orang yang mengalami kekurangan. <br>
 						
 						<!-- Start article 2 -->
 							<div class="article-post">
+								<a href="hangout.php#"><img src="img/foto/hangout6.jpg" class="article-media img-responsive" alt="" /></a>
 								<article>
-									<!--div class="article-title">
-										<div class="post-date"><span>20</span>July</div>
-										<h5><a href="blog-alt2-rightsidebar.html#">Iusto veritus an eos, eam ad graece</a></h5>
-										<ul class="mata-post">
-											<li><a href="blog-alt2-rightsidebar.html#"><i class="icon-profile-male"></i> John doe</a></li>
-											<li><a href="blog-alt2-rightsidebar.html#"><i class="icon-pencil"></i> Photography</a></li>
-											<li><a href="blog-alt2-rightsidebar.html#"><i class="icon-chat"></i> 3 comments</a></li>
-										</ul>
+									<div class="article-title">
+										<div class="post-date"><span>12</span>Sept</div>
+										<h5><a href="hangout.php#">Hangout Member I-MiNOR </a></h5>
+										
 									</div>
 									<p>
-									Ea sea reque atomorum interpretaris, ex legere propriae cum. Ei eam propriae probatus. Vim illum dolor tamquam in. No omnes nullam inciderint ius, qui ad sale simul. Primis aeterno assueverit mei ut, ei reque primis volutpat his. Ut est probo dolore populo, ut tamquam intellegat vim, ea quo elitr dictas. An audire ceteros duo, dicunt debitis his at, has veri idque et. Vix ea elitr antiopam, pri solum prompta dissentias no.
+									
 									</p>
-									<a href="blog-alt2-rightsidebar.html#" class="btn btn-default">Read more</a-->
-								</article>
+									<a href="blog-alt2-rightsidebar.html#" class="btn btn-default">Read more</a>
+								</article>																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
 							</div>
 						<!-- End article 2 -->
 						
 						<div class="divider"></div>
 						
 						<!-- Start article 3 -->
-							<!--div class="article-post">
+							<div class="article-post">
 								<div class="video-container article-media">
 									<iframe id="player" src="https://www.youtube.com/embed/mdfMT5Zi8Eo" class="img-thumbnail"></iframe>
-								</div-->
+								</div>
 								<article>
-									<!--div class="article-title">
+									<div class="article-title">
 										<div class="post-date"><span>18</span>July</div>
 										<h5><a href="blog-alt2-rightsidebar.html#">Numquam detraxit sit ei an vel</a></h5>
 										<ul class="mata-post">
@@ -281,14 +267,14 @@ terutama pada orang-orang yang mengalami kekurangan. <br>
 									<p>
 									Numquam detraxit sit ei, an vel summo utinam tincidunt. Et insolens assentior nec, id mea delicatissimi concludaturque. Ne vis tantas melius quaestio, mucius semper ad mea. Ut eam repudiare adolescens, nec ut case eius posse, ex tamquam copiosae definiebas ius. Sensibus salutandi qualisque vix cu, eu per saperet fastidii. Unum postea alienum vis ei, ea vim paulo mediocrem hendrerit. An ipsum partem eum, augue aliquid at pri.
 									</p>
-									<a href="blog-alt2-rightsidebar.html#" class="btn btn-default">Read more</a-->
+									<a href="blog-alt2-rightsidebar.html#" class="btn btn-default">Read more</a>
 								</article>
 							</div>
 						<!-- End article 3 -->
 						
 						<div class="divider"></div>
 						
-						<!--ul class="pagination margin-clear">
+						<ul class="pagination margin-clear">
 							<li class="disabled"><a href="blog-alt2-rightsidebar.html#">Prev</a></li>
 							<li class="active"><a href="blog-alt2-rightsidebar.html#">1</a></li>
 							<li><a href="blog-alt2-rightsidebar.html#">2</a></li>
@@ -296,12 +282,12 @@ terutama pada orang-orang yang mengalami kekurangan. <br>
 							<li><a href="blog-alt2-rightsidebar.html#">4</a></li>
 							<li><a href="blog-alt2-rightsidebar.html#">5</a></li>
 							<li><a href="blog-alt2-rightsidebar.html#">Next</a></li>
-						</ul-->
+						</ul>
 					</div>
 					<!-- End article -->
 					
 					<!-- Start aside -->
-					<!--div class="col-md-3 col-sm-3">
+					<div class="col-md-3 col-sm-3">
 						<aside>
 							<div class="widget">
 								<h5 class="widget-title">Latest work</h5>
@@ -386,7 +372,7 @@ terutama pada orang-orang yang mengalami kekurangan. <br>
 								</ul>
 							</div>
 						</aside>
-					</div-->
+					</div>
 					<!-- End aside -->
 				</div>
 			</div>

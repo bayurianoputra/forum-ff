@@ -155,12 +155,12 @@
 								</ul>
 							</li>
 
-							<li><a href="services.html">Event</a></li>
+							<li><a href="event.php">Event</a></li>
 							
 							<li class="dropdown">
 								<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">Gallery <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="portfolio-alt1.html">Foto</a></li>
+									<li><a href="Foto.php">Foto</a></li>
 									<li><a href="portfolio-alt2.html">Video</a></li>
 									
 								</ul>
@@ -169,7 +169,7 @@
 								<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">About <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="portfolio-alt1.html">About Forum</a></li>
-									<li><a href="portfolio-alt2.html">About Member</a></li>
+									<li><a href="About_Member.php">About Member</a></li>
 									
 								</ul>
 							</li>
@@ -219,89 +219,81 @@
 						<div id="recent-blog" class="owl-carousel">
 							<div class="row recent-post-wrapper">
 								<div class="col-md-6">
-									<a href="index.html#"><img src="img/blog/img01.jpg" class="img-responsive" alt="" /></a>
+									<a href="news_feed/sistem operasi.pdf#"><img src="news_feed/Special-Purpose-Distributions.jpg" class="img-responsive" alt="" /></a>
 								</div>
 								<div class="col-md-6">
 									<article>
 										<div class="article-title">
-											<div class="post-date"><span>24</span>July</div>
-											<h5><a href="index.html#">Eum in idque euismod vocibus</a></h5>
-											<ul class="mata-post">
-												<li><a href="index.html#"><i class="icon-profile-male"></i> John doe</a></li>
-												<li><a href="index.html#"><i class="icon-pencil"></i> Photography</a></li>
-												<li><a href="index.html#"><i class="icon-chat"></i> 3 comments</a></li>
-											</ul>
+											<div class="post-date"><span>10</span>Sept</div>
+											<h5><a href="news_feed/sistem operasi.pdf#">SISTEM OPERASI, SOFTWARE APLIKASI & BAHASA PEMROGRAMAN
+BESERTA PERBEDAAN ANTAR KETIGANYA</a></h5>
+											
 										</div>
 										<p>
-										Ullum augue altera in eam, mea vitae inimicus ei, eu laoreet maiestatis interpretaris his. Nam ut labitur graecis interpretaris. Eros eloquentiam ex has, ut mundi tantas tritani mea. Facer possim eligendi usu eu, nobis legere cu mea. Iudicabit percipitur ex vis duo dicant recteque.
+										SISTEM OPERASI, SOFTWARE APLIKASI & BAHASA PEMROGRAMAN
+BESERTA PERBEDAAN ANTAR KETIGANYA
+Perbedaan Sistem Operasi, Software Aplikasi, Bahasa Pemrograman
 										</p>
-										<a href="index.html#" class="btn btn-default">Read more</a>
+										<a href="news_feed/sistem operasi.pdf#" class="btn btn-default">Read more</a>
 									</article>
 								</div>
 							</div>
 							<div class="row recent-post-wrapper">
 								<div class="col-md-6">
-									<a href="index.html#"><img src="img/blog/img02.jpg" class="img-responsive" alt="" /></a>
+									<a href="news_feed/Virus.pdf#"><img src="news_feed/logo_virus.png" class="img-responsive" alt="" /></a>
 								</div>
 								<div class="col-md-6">
 									<article>
 										<div class="article-title">
-											<div class="post-date"><span>22</span>July</div>
-											<h5><a href="index.html#">Bonorum habemus tractatos</a></h5>
-											<ul class="mata-post">
-												<li><a href="index.html#"><i class="icon-profile-male"></i> John doe</a></li>
-												<li><a href="index.html#"><i class="icon-pencil"></i> Graphic</a></li>
-												<li><a href="index.html#"><i class="icon-chat"></i> 3 comments</a></li>
-											</ul>
+											<div class="post-date"><span>10</span>Sept</div>
+											<h5><a href="news_feed/Virus.pdf#">Semua Tentang Virus</a></h5>
+											
 										</div>
 									<p>
-									Ullum augue altera in eam, mea vitae inimicus ei, eu laoreet maiestatis interpretaris his. Nam ut labitur graecis interpretaris. Eros eloquentiam ex has, ut mundi tantas tritani mea. Facer possim eligendi usu eu, nobis legere cu mea. Iudicabit percipitur ex vis duo dicant recteque.
+									Virus komputer: Sebuah kode komputer yang mampu "berbiak dengan sendirinya" yang menempelkan sebagian atau seluruh kodenya pada file atau aplikasi, dan mengakibatkan komputer Anda melakukan hal-hal yang tidak Anda inginkan.
 									</p>
-									<a href="index.html#" class="btn btn-default">Read more</a>
+									<a href="news_feed/Virus.pdf#" class="btn btn-default">Read more</a>
 									</article>
 								</div>
 							</div>
 							<div class="row recent-post-wrapper">
 								<div class="col-md-6">
-									<a href="index.html#"><img src="img/blog/img03.jpg" class="img-responsive" alt="" /></a>
+									<a href="news_feed/bahasa pemograman.pdf#"><img src="img/blog/img04.jpg" class="img-responsive" alt="" /></a>
 								</div>
 								<div class="col-md-6">
 									<article>
 										<div class="article-title">
-											<div class="post-date"><span>20</span>July</div>
-											<h5><a href="index.html#">Ullum augue altera in eam</a></h5>
-											<ul class="mata-post">
-												<li><a href="index.html#"><i class="icon-profile-male"></i> John doe</a></li>
-												<li><a href="index.html#"><i class="icon-pencil"></i> Photography</a></li>
-												<li><a href="index.html#"><i class="icon-chat"></i> 3 comments</a></li>
-											</ul>
+											<div class="post-date"><span>10</span>Sept</div>
+											<h5><a href="news_feed/bahasa pemograman.pdf#">Bahasa pemrograman </a></h5>
+											
 										</div>
 									<p>
-									Ullum augue altera in eam, mea vitae inimicus ei, eu laoreet maiestatis interpretaris his. Nam ut labitur graecis interpretaris. Eros eloquentiam ex has, ut mundi tantas tritani mea. Facer possim eligendi usu eu, nobis legere cu mea. Iudicabit percipitur ex vis duo dicant recteque.
+									Bahasa pemrograman merupakan untaian kata-kata berupa instruksi/perintah-
+perintah yang biasanya terdiri dari banyak baris yang bisa dimengerti oleh
+komputer. Bahasa pemrograman ini wajib dikuasai oleh seorang developer agar
+dapat membangun sebuah aplikasi/software. Dan untuk membuat aplikasi
+tertentu maka digunakan juga bahasa pemrograman yang sesuai dengan
+kebutuhan aplikasi yang akan dibuat tersebut.
 									</p>
-									<a href="index.html#" class="btn btn-default">Read more</a>
+									<a href="news_feed/bahasa pemograman.pdf#" class="btn btn-default">Read more</a>
 									</article>
 								</div>
 							</div>
 							<div class="row recent-post-wrapper">
 								<div class="col-md-6">
-									<a href="index.html#"><img src="img/blog/img04.jpg" class="img-responsive" alt="" /></a>
+									<a href="news_feed/Artikel Teknologi.pdf#"><img src="news_feed/foto artikel.jpg" class="img-responsive" alt="" /></a>
 								</div>
 								<div class="col-md-6">
 									<article>
 										<div class="article-title">
-											<div class="post-date"><span>19</span>July</div>
-											<h5><a href="index.html#">Graece mandamus mea at</a></h5>
-											<ul class="mata-post">
-												<li><a href="index.html#"><i class="icon-profile-male"></i> John doe</a></li>
-												<li><a href="index.html#"><i class="icon-pencil"></i> Web design</a></li>
-												<li><a href="index.html#"><i class="icon-chat"></i> 3 comments</a></li>
-											</ul>
+											<div class="post-date"><span>12</span>Sept</div>
+											<h5><a href="news_feed/Artikel Teknologi.pdf#">Artikel Tentang Teknologi</a></h5>
+											
 										</div>
 									<p>
-									Ullum augue altera in eam, mea vitae inimicus ei, eu laoreet maiestatis interpretaris his. Nam ut labitur graecis interpretaris. Eros eloquentiam ex has, ut mundi tantas tritani mea. Facer possim eligendi usu eu, nobis legere cu mea. Iudicabit percipitur ex vis duo dicant recteque.
+									Artikel Teknologi Mengenai Perkembangan Komputer – Teknologi sering dikaitkan dengan komputer. Karena komputer memang penemuan yang telah merubah banyak sekali perubahan di belahan dunia manapun. Oleh karena itu, bisa dianggap komputer adalah kilas balik dari kemajuan dunia teknologi. Sehingga dengan adanya komputer ini, manusia dapat mengerjakan pekerjaan lebih cepat dan efisien.
 									</p>
-									<a href="index.html#" class="btn btn-default">Read more</a>
+									<a href="news_feed/Artikel Teknologi.pdf#" class="btn btn-default">Read more</a>
 									</article>
 								</div>
 							</div>
@@ -330,7 +322,7 @@
 					<div class="col-md-2 widget">
 						<h6>Contact us</h6>
 						<ul class="list">
-							<li>0881-8227-423</li>
+							<li>Bayu Riano Putra</li>
 							<li>bayurianoputra@gmail.com</li>
 						</ul>
 					</div>

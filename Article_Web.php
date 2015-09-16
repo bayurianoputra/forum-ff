@@ -164,12 +164,12 @@
 								</ul>
 							</li>
 
-							<li><a href="services.html">Event</a></li>
+							<li><a href="event.php">Event</a></li>
 							
 							<li class="dropdown">
 								<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">Gallery <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="portfolio-alt1.html">Foto</a></li>
+									<li><a href="Foto.php">Foto</a></li>
 									<li><a href="portfolio-alt2.html">Video</a></li>
 									
 								</ul>
@@ -178,7 +178,7 @@
 								<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">About <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="portfolio-alt1.html">About Forum</a></li>
-									<li><a href="portfolio-alt2.html">About Member</a></li>
+									<li><a href="About_Member.php">About Member</a></li>
 									
 								</ul>
 							</li>
@@ -234,12 +234,9 @@
 							<div class="widget">
 								<h5 class="widget-title">Categories</h5>
 								<ul class="cat">
-									<li><a href="blog-alt2-leftsidebar.html#"><i class="icon-pencil"></i> Web design</a></li>
-									<li><a href="blog-alt2-leftsidebar.html#"><i class="icon-pencil"></i> Photography</a></li>
-									<li><a href="blog-alt2-leftsidebar.html#"><i class="icon-pencil"></i> Marketing</a></li>
-									<li><a href="blog-alt2-leftsidebar.html#"><i class="icon-pencil"></i> Logo & icons</a></li>
-									<li><a href="blog-alt2-leftsidebar.html#"><i class="icon-pencil"></i> Graphict</a></li>
-									<li><a href="blog-alt2-leftsidebar.html#"><i class="icon-pencil"></i> Illustrator</a></li>
+									<li><a href="Article_Java.php#"><i class="icon-pencil"></i> Java</a></li>
+									<li><a href="Article_Web.php#"><i class="icon-pencil"></i> Web</a></li>
+									
 								</ul>
 							</div>
 							<div class="widget">
@@ -395,7 +392,7 @@ oleh user/admin dengan username dan password yang tersimpan didatabase.
 					<div class="col-md-2 widget">
 						<h6>Contact us</h6>
 						<ul class="list">
-							<li>0881-8227-423</li>
+							<li>Bayu Riano Putra </li>
 							<li>bayurianoputra@gmail.com</li>
 						</ul>
 					</div>
