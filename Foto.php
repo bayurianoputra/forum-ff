@@ -70,7 +70,7 @@
 	<!-- End preloading -->
 	
  	<!-- Start demo options -->
-	<div class="demo-panel">
+	<!--div class="demo-panel">
 		<h6>Color options</h6>
 		<ul class="stylechanger tooltips">
 			<li><a id="color1" href="portfolio-alt1.html#" data-skin="default.css"></a></li>
@@ -151,15 +151,15 @@
 							</div>
 						</div>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="news_feed.php">Home</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="news_feed.php">News</a></li>
 							<li class="dropdown">
 								<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">Article <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									
 									<li><a href="Article_Java.php">Java</a></li>
 									<li><a href="Article_Web.php">Web</a></li>
-									<li><a href="blog-alt2-rightsidebar.html">H2H</a></li>
-									<li><a href="singlepost-leftsidebar.html">Video Tutorial</a></li>
+									<li><a href="video_tutorial.php">Video Tutorial</a></li>
 									
 								</ul>
 							</li>
@@ -177,7 +177,7 @@
 							<li class="dropdown">
 								<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">About <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="portfolio-alt1.html">About Forum</a></li>
+									<li><a href="about_forum.php">About Forum</a></li>
 									<li><a href="About_Member.php">About Member</a></li>
 						</ul>
 					</div>
@@ -196,7 +196,7 @@
 						</div>
 						<div class="col-md-6 col-sm-6 text-right">
 							<ol class="breadcrumb">
-							  <li><a href="index.php#">Back To Home</a></li>
+							  <li><a href="#"></a></li>
 							  
 							</ol>
 						</div>
@@ -239,9 +239,9 @@
 											<h5><a>Pembelajaran</a></h5>
 											<a>Malam Minggu</a>
 										</div>
-										<div class="zoom"><a href="img/foto/bl1.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/foto/bl1e.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/foto/bl1.jpg" class="img-maxwidth" alt="" />
+									<img src="img/foto/bl1e.jpg" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="belajar" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
@@ -311,54 +311,6 @@
 											<h5><a>Pembelajaran</a></h5>
 											<a>Malam Minggu</a>
 										</div>
-										<div class="zoom"><a href="img/foto/bl7.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
-									</div>
-									<img src="img/foto/bl7.jpg" class="img-maxwidth" alt="" />
-								</div>
-							</div>
-							<div data-filter="belajar" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
-								<div class="img-wrapper">
-									<div class="img-caption">
-										<div class="image-title">
-											<h5><a>Pembelajaran</a></h5>
-											<a>Malam Minggu</a>
-										</div>
-										<div class="zoom"><a href="img/foto/bl8.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
-									</div>
-									<img src="img/foto/bl8.jpg" class="img-maxwidth" alt="" />
-								</div>
-							</div>
-							<div data-filter="belajar" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
-								<div class="img-wrapper">
-									<div class="img-caption">
-										<div class="image-title">
-											<h5><a>Pembelajaran</a></h5>
-											<a>Malam Minggu</a>
-										</div>
-										<div class="zoom"><a href="img/foto/bl9.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
-									</div>
-									<img src="img/foto/bl9.jpg" class="img-maxwidth" alt="" />
-								</div>
-							</div>
-							<div data-filter="belajar" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
-								<div class="img-wrapper">
-									<div class="img-caption">
-										<div class="image-title">
-											<h5><a>Pembelajaran</a></h5>
-											<a>Malam Minggu</a>
-										</div>
-										<div class="zoom"><a href="img/foto/bl10.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
-									</div>
-									<img src="img/foto/bl10.jpg" class="img-maxwidth" alt="" />
-								</div>
-							</div>
-							<div data-filter="belajar" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
-								<div class="img-wrapper">
-									<div class="img-caption">
-										<div class="image-title">
-											<h5><a>Pembelajaran</a></h5>
-											<a>Malam Minggu</a>
-										</div>
 										<div class="zoom"><a href="img/foto/bl11.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
 									<img src="img/foto/bl11.jpg" class="img-maxwidth" alt="" />
@@ -383,9 +335,9 @@
 											<h5><a>Pembelajaran</a></h5>
 											<a>Malam Minggu</a>
 										</div>
-										<div class="zoom"><a href="img/foto/b13.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/foto/bl7.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/foto/bl13.jpg" class="img-maxwidth" alt="" />
+									<img src="img/foto/bl7.jpg" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="belajar" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
@@ -412,6 +364,54 @@
 									<img src="img/foto/bl15.jpg" class="img-maxwidth" alt="" />
 								</div>
 							</div>
+							<!--div data-filter="belajar" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
+								<div class="img-wrapper">
+									<div class="img-caption">
+										<div class="image-title">
+											<h5><a>Pembelajaran</a></h5>
+											<a>Malam Minggu</a>
+										</div>
+										<div class="zoom"><a href="img/foto/.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+									</div>
+									<img src="img/foto/.jpg" class="img-maxwidth" alt="" />
+								</div>
+							</div>
+							<div data-filter="belajar" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
+								<div class="img-wrapper">
+									<div class="img-caption">
+										<div class="image-title">
+											<h5><a>Pembelajaran</a></h5>
+											<a>Malam Minggu</a>
+										</div>
+										<div class="zoom"><a href="img/foto/.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+									</div>
+									<img src="img/foto/.jpg" class="img-maxwidth" alt="" />
+								</div>
+							</div>
+							<div data-filter="belajar" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
+								<div class="img-wrapper">
+									<div class="img-caption">
+										<div class="image-title">
+											<h5><a>Pembelajaran</a></h5>
+											<a>Malam Minggu</a>
+										</div>
+										<div class="zoom"><a href="img/foto/.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+									</div>
+									<img src="img/foto/.jpg" class="img-maxwidth" alt="" />
+								</div>
+							</div>
+							<div data-filter="belajar" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
+								<div class="img-wrapper">
+									<div class="img-caption">
+										<div class="image-title">
+											<h5><a>Pembelajaran</a></h5>
+											<a>Malam Minggu</a>
+										</div>
+										<div class="zoom"><a href="img/foto/.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+									</div>
+									<img src="img/foto/.jpg" class="img-maxwidth" alt="" />
+								</div>
+							</div-->
 							<div data-filter="hangout" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
 								<div class="img-wrapper">
 									<div class="img-caption">
@@ -419,9 +419,9 @@
 											<h5><a>Hangout</a></h5>
 											<a>Join Coffe</a>
 										</div>
-										<div class="zoom"><a href="img/foto/hangout1.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/foto/hangout1.png" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/foto/hangout1.jpg" class="img-maxwidth" alt="" />
+									<img src="img/foto/hangout.png" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="hangout" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
@@ -455,9 +455,9 @@
 											<h5><a>Hangout</a></h5>
 											<a>Join Coffe</a>
 										</div>
-										<div class="zoom"><a href="img/foto/hangout4.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/foto/hangout6.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/foto/hangout4.jpg" class="img-maxwidth" alt="" />
+									<img src="img/foto/hangout6.jpg" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="hangout" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
@@ -491,9 +491,9 @@
 											<h5><a>Panti Asuhan</a></h5>
 											<a>Buka Bersama Anak Panti</a>
 										</div>
-										<div class="zoom"><a href="img/foto/panti2.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/foto/panti2.png" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/foto/panti2.jpg" class="img-maxwidth" alt="" />
+									<img src="img/foto/panti2.png" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
@@ -503,21 +503,9 @@
 											<h5><a>Panti Asuhan</a></h5>
 											<a>Buka Bersama Anak Panti</a>
 										</div>
-										<div class="zoom"><a href="img/foto/panti3.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/foto/panti3.png" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/foto/panti3.jpg" class="img-maxwidth" alt="" />
-								</div>
-							</div>
-							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
-								<div class="img-wrapper">
-									<div class="img-caption">
-										<div class="image-title">
-											<h5><a>Panti Asuhan</a></h5>
-											<a>Buka Bersama Anak Panti</a>
-										</div>
-										<div class="zoom"><a href="img/foto/panti4.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
-									</div>
-									<img src="img/foto/panti4.jpg" class="img-maxwidth" alt="" />
+									<img src="img/foto/panti3.png" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
@@ -551,9 +539,9 @@
 											<h5><a>Panti Asuhan</a></h5>
 											<a>Buka Bersama Anak Panti</a>
 										</div>
-										<div class="zoom"><a href="img/foto/panti7.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/foto/panti4.png" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/foto/panti7.jpg" class="img-maxwidth" alt="" />
+									<img src="img/foto/panti4.png" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
@@ -561,78 +549,6 @@
 									<div class="img-caption">
 										<div class="image-title">
 											<h5><a>Panti Asuhan</a></h5>
-											<a>Buka Bersama Anak Panti</a>
-										</div>
-										<div class="zoom"><a href="img/foto/panti8.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
-									</div>
-									<img src="img/foto/panti8.jpg" class="img-maxwidth" alt="" />
-								</div>
-							</div>
-							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
-								<div class="img-wrapper">
-									<div class="img-caption">
-										<div class="image-title">
-											<h5><a>Panti Asuhan</a></h5>
-											<a>Buka Bersama Anak Panti</a>
-										</div>
-										<div class="zoom"><a href="img/foto/panti9.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
-									</div>
-									<img src="img/foto/panti9.jpg" class="img-maxwidth" alt="" />
-								</div>
-							</div>
-							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
-								<div class="img-wrapper">
-									<div class="img-caption">
-										<div class="image-title">
-											<h5><a>Panti Asuhan</a></h5>
-											<a>Buka Bersama Anak Panti</a>
-										</div>
-										<div class="zoom"><a href="img/foto/panti10.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
-									</div>
-									<img src="img/foto/panti10.jpg" class="img-maxwidth" alt="" />
-								</div>
-							</div>
-							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
-								<div class="img-wrapper">
-									<div class="img-caption">
-										<div class="image-title">
-											<h5><a>Panti Asuhan</a></h5>
-											<a>Buka Bersama Anak Panti</a>
-										</div>
-										<div class="zoom"><a href="img/foto/panti11.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
-									</div>
-									<img src="img/foto/pant11.jpg" class="img-maxwidth" alt="" />
-								</div>
-							</div>
-							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
-								<div class="img-wrapper">
-									<div class="img-caption">
-										<div class="image-title">
-											<h5><a>Rapat Panti </a></h5>
-											<a>Buka Bersama Anak Panti</a>
-										</div>
-										<div class="zoom"><a href="img/foto/rapat.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
-									</div>
-									<img src="img/foto/rapat.jpg" class="img-maxwidth" alt="" />
-								</div>
-							</div>
-							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
-								<div class="img-wrapper">
-									<div class="img-caption">
-										<div class="image-title">
-											<h5><a>Rapat Panti </a></h5>
-											<a>Buka Bersama Anak Panti</a>
-										</div>
-										<div class="zoom"><a href="img/foto/rapat1.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
-									</div>
-									<img src="img/foto/rapat1.jpg" class="img-maxwidth" alt="" />
-								</div>
-							</div>
-							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
-								<div class="img-wrapper">
-									<div class="img-caption">
-										<div class="image-title">
-											<h5><a>Panti Asuhan </a></h5>
 											<a>Buka Bersama Anak Panti</a>
 										</div>
 										<div class="zoom"><a href="img/foto/panti12.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
@@ -671,9 +587,9 @@
 											<h5><a>Panti Asuhan</a></h5>
 											<a>Buka Bersama Anak Panti</a>
 										</div>
-										<div class="zoom"><a href="img/foto/panti15.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/foto/panti15.jpg" class="img-maxwidth" alt="" />
+									<img src="img/foto/" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
@@ -683,57 +599,33 @@
 											<h5><a>Panti Asuhan</a></h5>
 											<a>Buka Bersama Anak Panti</a>
 										</div>
-										<div class="zoom"><a href="img/foto/panti16.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/foto/panti16.jpg" class="img-maxwidth" alt="" />
+									<img src="img/foto/" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
 								<div class="img-wrapper">
 									<div class="img-caption">
 										<div class="image-title">
-											<h5><a>Panti Asuhan</a></h5>
+											<h5><a>Rapat Panti </a></h5>
 											<a>Buka Bersama Anak Panti</a>
 										</div>
-										<div class="zoom"><a href="img/foto/panti17.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/foto/panti17.jpg" class="img-maxwidth" alt="" />
+									<img src="img/foto/" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
 								<div class="img-wrapper">
 									<div class="img-caption">
 										<div class="image-title">
-											<h5><a>Panti Asuhan</a></h5>
+											<h5><a>Rapat Panti </a></h5>
 											<a>Buka Bersama Anak Panti</a>
 										</div>
-										<div class="zoom"><a href="img/foto/panti18.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/foto/panti18.jpg" class="img-maxwidth" alt="" />
-								</div>
-							</div>
-							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
-								<div class="img-wrapper">
-									<div class="img-caption">
-										<div class="image-title">
-											<h5><a>Panti Asuhan</a></h5>
-											<a>Buka Bersama Anak Panti</a>
-										</div>
-										<div class="zoom"><a href="img/foto/panti19.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
-									</div>
-									<img src="img/foto/panti19.jpg" class="img-maxwidth" alt="" />
-								</div>
-							</div>
-							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
-								<div class="img-wrapper">
-									<div class="img-caption">
-										<div class="image-title">
-											<h5><a>Panti Asuhan</a></h5>
-											<a>Buka Bersama Anak Panti</a>
-										</div>
-										<div class="zoom"><a href="img/foto/panti20.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
-									</div>
-									<img src="img/foto/panti20.jpg" class="img-maxwidth" alt="" />
+									<img src="img/foto/" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
@@ -743,9 +635,117 @@
 											<h5><a>Panti Asuhan </a></h5>
 											<a>Buka Bersama Anak Panti</a>
 										</div>
-										<div class="zoom"><a href="img/foto/rapat2.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/foto/rapat2.jpg" class="img-maxwidth" alt="" />
+									<img src="img/foto/" class="img-maxwidth" alt="" />
+								</div>
+							</div>
+							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
+								<div class="img-wrapper">
+									<div class="img-caption">
+										<div class="image-title">
+											<h5><a>Panti Asuhan</a></h5>
+											<a>Buka Bersama Anak Panti</a>
+										</div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+									</div>
+									<img src="img/foto/" class="img-maxwidth" alt="" />
+								</div>
+							</div>
+							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
+								<div class="img-wrapper">
+									<div class="img-caption">
+										<div class="image-title">
+											<h5><a>Panti Asuhan</a></h5>
+											<a>Buka Bersama Anak Panti</a>
+										</div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+									</div>
+									<img src="img/foto/" class="img-maxwidth" alt="" />
+								</div>
+							</div>
+							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
+								<div class="img-wrapper">
+									<div class="img-caption">
+										<div class="image-title">
+											<h5><a>Panti Asuhan</a></h5>
+											<a>Buka Bersama Anak Panti</a>
+										</div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+									</div>
+									<img src="img/foto/" class="img-maxwidth" alt="" />
+								</div>
+							</div>
+							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
+								<div class="img-wrapper">
+									<div class="img-caption">
+										<div class="image-title">
+											<h5><a>Panti Asuhan</a></h5>
+											<a>Buka Bersama Anak Panti</a>
+										</div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+									</div>
+									<img src="img/foto/.jpg" class="img-maxwidth" alt="" />
+								</div>
+							</div>
+							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
+								<div class="img-wrapper">
+									<div class="img-caption">
+										<div class="image-title">
+											<h5><a>Panti Asuhan</a></h5>
+											<a>Buka Bersama Anak Panti</a>
+										</div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+									</div>
+									<img src="img/foto/" class="img-maxwidth" alt="" />
+								</div>
+							</div>
+							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
+								<div class="img-wrapper">
+									<div class="img-caption">
+										<div class="image-title">
+											<h5><a>Panti Asuhan</a></h5>
+											<a>Buka Bersama Anak Panti</a>
+										</div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+									</div>
+									<img src="img/foto/" class="img-maxwidth" alt="" />
+								</div>
+							</div>
+							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
+								<div class="img-wrapper">
+									<div class="img-caption">
+										<div class="image-title">
+											<h5><a>Panti Asuhan</a></h5>
+											<a>Buka Bersama Anak Panti</a>
+										</div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+									</div>
+									<img src="img/foto/" class="img-maxwidth" alt="" />
+								</div>
+							</div>
+							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
+								<div class="img-wrapper">
+									<div class="img-caption">
+										<div class="image-title">
+											<h5><a>Panti Asuhan</a></h5>
+											<a>Buka Bersama Anak Panti</a>
+										</div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+									</div>
+									<img src="img/foto/" class="img-maxwidth" alt="" />
+								</div>
+							</div>
+							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
+								<div class="img-wrapper">
+									<div class="img-caption">
+										<div class="image-title">
+											<h5><a>Panti Asuhan </a></h5>
+											<a>Buka Bersama Anak Panti</a>
+										</div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+									</div>
+									<img src="img/foto/.jpg" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
@@ -755,9 +755,9 @@
 											<h5><a>Rapat Panti </a></h5>
 											<a>Buka Bersama Anak Panti</a>
 										</div>
-										<div class="zoom"><a href="img/foto/rapat3.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/foto/rapat3.jpg" class="img-maxwidth" alt="" />
+									<img src="img/foto/" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="panti" class="grid-item col-md-3 col-sm-6 col-xs-12 img-wrapper grid-spacing">
@@ -767,9 +767,9 @@
 											<h5><a>Rapat Panti </a></h5>
 											<a>Buka Bersama Anak Panti</a>
 										</div>
-										<div class="zoom"><a href="img/foto/rapat4.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/foto/" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/foto/rapat4.jpg" class="img-maxwidth" alt="" />
+									<img src="img/foto/" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 								</div>

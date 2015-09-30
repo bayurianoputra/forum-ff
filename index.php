@@ -14,6 +14,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
 
 	<!-- Font -->
 	<link href="fonts/open-sans/stylesheet.css" rel="stylesheet">
@@ -71,7 +72,7 @@
 	<!-- End preloading -->
 	
  	<!-- Start demo options -->
-	<div class="demo-panel">
+	<!--div class="demo-panel">
 		<h6>Color options</h6>
 		<ul class="stylechanger tooltips">
 			<li><a id="color1" href="index.php#" data-skin="default.css"></a></li>
@@ -106,7 +107,7 @@
 			<li class="full">
 				<a href="index-alt5.html" class="btn btn-bordered btn-primary btn-block">index alt6</a>
 			</li>
-		</ul-->
+		</ul>
 		<div class="clearfix"></div>
 		<h6>Bonus</h6>
 		<ul class="layout">
@@ -153,7 +154,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.html#"><img src="" alt="" /></a>
+						<a class="navbar-brand" href="index.php#"><img src="" alt="" /></a>
 					</div>
 					<!-- End navbar-header -->
 					
@@ -164,7 +165,7 @@
 								
 							</div>
 							<div class="btn-group search-group">
-								<a href="index.html#" class="search dropdown-toggle" data-toggle="dropdown"><i class="icon-search2"></i></a>
+								<a href="index.php#" class="search dropup-toggle" data-toggle="dropup"><i class="icon-search2"></i></a>
 								<div class="dropdown-menu dropdown-search">
 									<form>
 										<fieldset class="search-form">
@@ -176,17 +177,17 @@
 							</div>
 						</div>
 						<ul class="nav navbar-nav navbar-right">
+							<li><a href="index.php">Home</a></li>
 
-							<li><a href="news_feed.php">Home</a></li>
+							<li><a href="news_feed.php">News</a></li>
 
 							<li class="dropdown">
-								<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">Article <span class="caret"></span></a>
+								<a href="index.php#" class="dropdown-toggle" data-toggle="dropdown" role="button">Article <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									
 									<li><a href="Article_Java.php">Java</a></li>
 									<li><a href="Article_Web.php">Web</a></li>
-									<li><a href="blog-alt2-rightsidebar.html">H2H</a></li>
-									<li><a href="singlepost-leftsidebar.html">Video Tutorial</a></li>
+									<li><a href="video_tutorial.php">Video Tutorial</a></li>
 									
 								</ul>
 							</li>
@@ -194,7 +195,7 @@
 							<li><a href="event.php">Event</a></li>
 							
 							<li class="dropdown">
-								<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">Gallery <span class="caret"></span></a>
+								<a href="index.php#" class="dropdown-toggle" data-toggle="dropdown" role="button">Gallery <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="Foto.php">Foto</a></li>
 									<li><a href="portfolio-alt2.html">Video</a></li>
@@ -204,7 +205,7 @@
 							<li class="dropdown">
 								<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">About <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="portfolio-alt1.html">About Forum</a></li>
+									<li><a href="about_forum.php">About Forum</a></li>
 									<li><a href="About_Member.php">About Member</a></li>
 									
 								</ul>
@@ -291,7 +292,6 @@
 									<div class="team-network">
 										<a href="index.html#"><i class="icon-facebook icon-4x"></i></a>
 										<a href="index.html#"><i class="icon-twitter icon-4x"></i></a>
-										<a href="index.html#"><i class="icon-linkedin icon-4x"></i></a>
 									</div>
 								</div>
 							</div>
@@ -300,7 +300,7 @@
 									<img src="img/team/team02.png" class="img-responsive" alt="" />
 								</div>
 								<div class="col-md-7 team-detail">
-									<span>PROGRAMMER</span>
+									<span>Software Developer</span>
 									<h3>DERY FEBRIANTARA</h3>
 									<p>
 									Maiorum et sit vidit saepe. Gloriatur interesset no sed in nec posse commodo doming everti quo.
@@ -308,7 +308,6 @@
 									<div class="team-network">
 										<a href="index.html#"><i class="icon-facebook icon-4x"></i></a>
 										<a href="index.html#"><i class="icon-twitter icon-4x"></i></a>
-										<a href="index.html#"><i class="icon-linkedin icon-4x"></i></a>
 									</div>
 								</div>
 							</div>
@@ -325,7 +324,6 @@
 									<div class="team-network">
 										<a href="index.html#"><i class="icon-facebook icon-4x"></i></a>
 										<a href="index.html#"><i class="icon-twitter icon-4x"></i></a>
-										<a href="index.html#"><i class="icon-linkedin icon-4x"></i></a>
 									</div>
 								</div>
 							</div>
@@ -585,9 +583,9 @@ kebutuhan aplikasi yang akan dibuat tersebut.
 					<div class="col-md-6 text-center half-column bg1">
 						<div class="half-containt">
 							<div class="twitter-widget">
-								<div class="twitter-icon"><i class="icon-twitter4"></i></div>
-								<div class="tweecool"></div>
-								<p><label>Follow us :</label> <a href="index.html#">@tooku_corp</a></p>
+								<div class=""><i class="icon-facebook icon-4x"></i></div>
+								<div class="	"></div>
+								<p><label>Like This Yoo :</label> <a href = "FORUM MI KAMPUS PAHLAWAN BANDUNG#">FORUM MI KAMPUS PAHLAWAN BANDUNG</a></p>
 							</div>
 						</div>
 					</div>

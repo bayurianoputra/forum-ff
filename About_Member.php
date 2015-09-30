@@ -70,7 +70,7 @@
 	<!-- End preloading -->
 	
  	<!-- Start demo options -->
-	<div class="demo-panel">
+	<!--div class="demo-panel">
 		<h6>Color options</h6>
 		<ul class="stylechanger tooltips">
 			<li><a id="color1" href="portfolio-alt2.html#" data-skin="default.css"></a></li>
@@ -151,15 +151,15 @@
 							</div>
 						</div>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="news_feed.php">Home</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="news_feed.php">News</a></li>
 							<li class="dropdown">
 								<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">Article <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									
 									<li><a href="Article_Java.php">Java</a></li>
 									<li><a href="Article_Web.php">Web</a></li>
-									<li><a href="blog-alt2-rightsidebar.html">H2H</a></li>
-									<li><a href="singlepost-leftsidebar.html">Video Tutorial</a></li>
+									<li><a href="video_tutorial.php">Video Tutorial</a></li>
 									
 								</ul>
 							</li>
@@ -177,7 +177,7 @@
 							<li class="dropdown">
 								<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">About <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="portfolio-alt1.html">About Forum</a></li>
+									<li><a href="about_forum.php">About Forum</a></li>
 									<li><a href="About_Member.php">About Member</a></li>
 						</ul>
 					</div>
@@ -196,7 +196,7 @@
 						</div>
 						<div class="col-md-6 col-sm-6 text-right">
 							<ol class="breadcrumb">
-							  <li><a href="index.php#">Back To Home</a></li>
+							  <li><a href="#"></a></li>
 							  
 							</ol>
 						</div>
@@ -297,11 +297,11 @@
 									<div class="img-caption">
 										<div class="image-title">
 											<h5><a href="#">Dery Febriantara</a></h5>
-											<a href="#">Programmer</a>
+											<a href="#">Software Developer</a>
 										</div>
-										<div class="zoom"><a href="img/gallery/670x670/dery.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/gallery/670x670/dery1.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/gallery/670x670/dery.jpg" class="img-maxwidth" alt="" />
+									<img src="img/gallery/670x670/dery1.jpg" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="Pengurus" class="grid-item col-md-3 col-sm-6 col-xs-12 grid-spacing">
@@ -311,9 +311,9 @@
 											<h5><a href="#">Ashri Malik</a></h5>
 											<a href="#">Programmer</a>
 										</div>
-										<div class="zoom"><a href="img/gallery/670x670/Java-Logo.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/gallery/670x670/malik.png" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/gallery/670x670/Java-Logo.jpg" class="img-maxwidth" alt="" />
+									<img src="img/gallery/670x670/malik.png" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="Member" class="grid-item col-md-3 col-sm-6 col-xs-12 grid-spacing">
@@ -407,9 +407,9 @@
 											<h5><a href="#">Sanury</a></h5>
 											<a href="#">Member</a>
 										</div>
-										<div class="zoom"><a href="img/gallery/670x670/Java-Logo.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/gallery/670x670/sanuri.png" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/gallery/670x670/Java-Logo.jpg" class="img-maxwidth" alt="" />
+									<img src="img/gallery/670x670/sanuri.png" class="img-maxwidth" alt="" />
 									</div>
 							</div>
 							<div data-filter="Member" class="grid-item col-md-3 col-sm-6 col-xs-12 grid-spacing">
@@ -479,16 +479,16 @@
 											<h5><a href="#">Yeti Daniati </a></h5>
 											<a href="#">Member</a>
 										</div>
-										<div class="zoom"><a href="img/gallery/670x670/Java-Logo.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
+										<div class="zoom"><a href="img/gallery/670x670/iyet.png" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>
 									</div>
-									<img src="img/gallery/670x670/Java-Logo.jpg" class="img-maxwidth" alt="" />
+									<img src="img/gallery/670x670/iyet.png" class="img-maxwidth" alt="" />
 								</div>
 							</div>
 							<div data-filter="Member" class="grid-item col-md-3 col-sm-6 col-xs-12 grid-spacing">
 								<div class="img-wrapper">
 									<div class="img-caption">
 										<div class="image-title">
-											<h5><a href="#">Nani Agusti </a></h5>
+											<h5><a href="#">Nani Agusti</a></h5>
 											<a href="#">Member</a>
 										</div>
 										<div class="zoom"><a href="img/gallery/670x670/Java-Logo.jpg" class="img-zoom" data-pretty="prettyPhoto"><i class="icon-magnifying-glass icon-3x"></i></a></div>

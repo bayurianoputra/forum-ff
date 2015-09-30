@@ -70,7 +70,7 @@
 	<!-- End preloading -->
 	
  	<!-- Start demo options -->
-	<div class="demo-panel">
+	<!--div class="demo-panel">
 		<h6>Color options</h6>
 		<ul class="stylechanger tooltips">
 			<li><a id="color1" href="blog-alt2-leftsidebar.html#" data-skin="default.css"></a></li>
@@ -151,15 +151,15 @@
 							</div>
 						</div>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="news_feed.php">Home</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="news_feed.php">News</a></li>
 							<li class="dropdown">
 								<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">Article <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									
 									<li><a href="Article_Java.php">Java</a></li>
 									<li><a href="Article_Web.php">Web</a></li>
-									<li><a href="blog-alt2-rightsidebar.html">H2H</a></li>
-									<li><a href="singlepost-leftsidebar.html">Tutorial Video</a></li>
+									<li><a href="video_tutorial.php">Tutorial Video</a></li>
 									
 								</ul>
 							</li>
@@ -177,7 +177,7 @@
 							<li class="dropdown">
 								<a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button">About <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="portfolio-alt1.html">About Forum</a></li>
+									<li><a href="about_forum.php">About Forum</a></li>
 									<li><a href="About_Member.php">About Member</a></li>
 									
 								</ul>
@@ -199,7 +199,7 @@
 						</div>
 						<div class="col-md-6 col-sm-6 text-right">
 							<ol class="breadcrumb">
-							  <li><a href="index.php">Back To Home</a></li>
+							  <li><a href=""></a></li>
 							 
 							</ol>
 						</div>
@@ -219,16 +219,16 @@
 							<div class="widget">
 								<h5 class="widget-title">Latest work</h5>
 								<ul class="popular-item">
-									<li><a href="blog-alt2-leftsidebar.html"><img src="img/gallery/thumbs/thumb01.jpg" class="img-responsive" alt="" /></a></li>
-									<li><a href="blog-alt2-leftsidebar.html"><img src="img/gallery/thumbs/thumb02.jpg" class="img-responsive" alt="" /></a></li>
-									<li><a href="blog-alt2-leftsidebar.html"><img src="img/gallery/thumbs/thumb03.jpg" class="img-responsive" alt="" /></a></li>
-									<li><a href="blog-alt2-leftsidebar.html"><img src="img/gallery/thumbs/thumb04.jpg" class="img-responsive" alt="" /></a></li>
-									<li><a href="blog-alt2-leftsidebar.html"><img src="img/gallery/thumbs/thumb05.jpg" class="img-responsive" alt="" /></a></li>
-									<li><a href="blog-alt2-leftsidebar.html"><img src="img/gallery/thumbs/thumb06.jpg" class="img-responsive" alt="" /></a></li>
-									<li><a href="blog-alt2-leftsidebar.html"><img src="img/gallery/thumbs/thumb07.jpg" class="img-responsive" alt="" /></a></li>
-									<li><a href="blog-alt2-leftsidebar.html"><img src="img/gallery/thumbs/thumb08.jpg" class="img-responsive" alt="" /></a></li>
-									<li><a href="blog-alt2-leftsidebar.html"><img src="img/gallery/thumbs/thumb09.jpg" class="img-responsive" alt="" /></a></li>
-									<li><a href="blog-alt2-leftsidebar.html"><img src="img/gallery/thumbs/thumb10.jpg" class="img-responsive" alt="" /></a></li>
+									<li><a href="img/gallery/670x670/arief.jpg"><img src="img/gallery/thumbs/arief.jpg" class="img-responsive" alt="" /></a></li>
+									<li><a href="img/gallery/670x670/dery1.jpg"><img src="img/gallery/thumbs/dery1.jpg" class="img-responsive" alt="" /></a></li>
+									<li><a href="img/gallery/670x670/endra.jpg"><img src="img/gallery/thumbs/endra.jpg" class="img-responsive" alt="" /></a></li>
+									<li><a href="img/gallery/670x670/malik.png"><img src="img/gallery/thumbs/malik.png" class="img-responsive" alt="" /></a></li>
+									<li><a href="img/gallery/670x670/mutaminah.jpg"><img src="img/gallery/thumbs/mutaminah.jpg" class="img-responsive" alt="" /></a></li>
+									<li><a href="img/gallery/670x670/rika.jpg"><img src="img/gallery/thumbs/rika.jpg" class="img-responsive" alt="" /></a></li>
+									<li><a href="img/gallery/670x670/sapta.jpg"><img src="img/gallery/thumbs/sapta.jpg" class="img-responsive" alt="" /></a></li>
+									<li><a href="img/gallery/670x670/teguh.jpg"><img src="img/gallery/thumbs/teguh.jpg" class="img-responsive" alt="" /></a></li>
+									<li><a href="img/gallery/670x670/trie.jpg"><img src="img/gallery/thumbs/trie.jpg" class="img-responsive" alt="" /></a></li>
+									<li><a href="img/gallery/670x670/ugie.jpg"><img src="img/gallery/thumbs/ugie.jpg" class="img-responsive" alt="" /></a></li>
 								</ul>
 							</div>
 							<div class="widget">
@@ -236,6 +236,7 @@
 								<ul class="cat">
 									<li><a href="Article_Java.php#"><i class="icon-pencil"></i> Java</a></li>
 									<li><a href="Article_Web.php#"><i class="icon-pencil"></i> Web</a></li>
+									<li><a href="video_turorial.php#"><i class="icon-pencil"></i> Video Tutorial</a></li>
 									
 								</ul>
 							</div>
@@ -243,24 +244,24 @@
 								<h5 class="widget-title">Recent post</h5>
 								<ul class="recent">
 									<li>
-										<a href="blog-alt2-leftsidebar.html#" class="post-thumb" ><img src="img/blog/thumbs/thumb01.jpg" class="img-responsive" alt="" /></a>
-										<h6><a href="blog-alt2-leftsidebar.html#">Sale ipsum ea nemore</a></h6>
+										<a class="post-thumb" ><img src="img/gallery/thumbs/arief.jpg" class="img-responsive" alt="" /></a>
+										<h6><a>Arif Sumarsono</a></h6>
 										<p>
-										Nam modo hinc an, ancillae oportere assueverit an.
+										Apapun kesibukannya , apapun kegiatannya , serumit apakah masalahnya , jangan lupa Kopi kawannn ..
 										</p>
 									</li>
 									<li>
-										<a href="blog-alt2-leftsidebar.html#" class="post-thumb" ><img src="img/blog/thumbs/thumb02.jpg" class="img-responsive" alt="" /></a>
-										<h6><a href="blog-alt2-leftsidebar.html#">Et insolens assentior</a></h6>
+										<a class="post-thumb" ><img src="img/gallery/thumbs/rika.jpg" class="img-responsive" alt="" /></a>
+										<h6><a>Rika Rahmatika</a></h6>
 										<p>
-										Nam modo hinc an, ancillae oportere assueverit an.
+										Artikel nya bagus banget , format PDF lagi , jd bisa langsung di Download . banyakin lagi yah artikel nya , bermamfaat banget :*
 										</p>
 									</li>
 									<li>
-										<a href="blog-alt2-leftsidebar.html#" class="post-thumb" ><img src="img/blog/thumbs/thumb03.jpg" class="img-responsive" alt="" /></a>
-										<h6><a href="blog-alt2-leftsidebar.html#">Unum postea alienum</a></h6>
+										<a class="post-thumb" ><img src="img/gallery/thumbs/teguh.jpg" class="img-responsive" alt="" /></a>
+										<h6><a>Teguh Ari Pamungkas</a></h6>
 										<p>
-										Nam modo hinc an, ancillae oportere assueverit an.
+										Tetap semangat Member-Member I-MiNOR , jalan masih panjang..Terima Kasih
 										</p>
 									</li>
 								</ul>
@@ -269,17 +270,17 @@
 								<h5 class="widget-title">Recent comments</h5>
 								<ul class="list-unstyled ticker">
 									<li>
-										<blockquote class="margin-clear"><p>Disputationi legere viderer scripserit his ei, vix ne erant viris vidit epicuri.</p></blockquote>
+										<blockquote class="margin-clear"><p>NO COMMENT</p></blockquote>
 									</li>
 									<li>
-										<blockquote class="margin-clear"><p>No omnes nullam inciderint ius, qui ad sale simul primis aeterno assueverit.</p></blockquote>
+										<blockquote class="margin-clear"><p>NO COMMENT</p></blockquote>
 									</li>
 									<li>
-										<blockquote class="margin-clear"><p>Sea rebum appareat perfe ctout. Ea meis menandri mei ex nec malis.</p></blockquote>
+										<blockquote class="margin-clear"><p>NO COMMENT</p></blockquote>
 									</li>
 								</ul>
 							</div>
-							<div class="widget">
+							<!--div class="widget">
 								<h5 class="widget-title">Tags</h5>
 								<ul class="tags">
 									<li><a href="blog-alt2-leftsidebar.html#"><i class="icon-pricetags"></i> Web</a></li>
@@ -294,7 +295,7 @@
 									<li><a href="blog-alt2-leftsidebar.html#"><i class="icon-pricetags"></i> App</a></li>
 									<li><a href="blog-alt2-leftsidebar.html#"><i class="icon-pricetags"></i> Mobile</a></li>
 								</ul>
-							</div>
+							</div-->
 						</aside>
 					</div>
 					<!-- End aside -->
@@ -345,7 +346,7 @@ oleh user/admin dengan username dan password yang tersimpan didatabase.
 						<div class="divider"></div>
 						
 						<!-- Start article 3 -->
-							<div class="article-post">
+							<!--div class="article-post">
 								<div class="video-container article-media">
 									<iframe id="player" src="https://www.youtube.com/embed/mdfMT5Zi8Eo" class="img-thumbnail"></iframe>
 								</div>
@@ -364,10 +365,10 @@ oleh user/admin dengan username dan password yang tersimpan didatabase.
 									</p>
 									<a href="blog-alt2-leftsidebar.html#" class="btn btn-default">Read more</a>
 								</article>
-							</div>
+							</div-->
 						<!-- End article 3 -->
 						
-						<div class="divider"></div>
+						<!--div class="divider"></div>
 						
 						<ul class="pagination margin-clear">
 							<li class="disabled"><a href="blog-alt2-leftsidebar.html#">Prev</a></li>
@@ -377,7 +378,7 @@ oleh user/admin dengan username dan password yang tersimpan didatabase.
 							<li><a href="blog-alt2-leftsidebar.html#">4</a></li>
 							<li><a href="blog-alt2-leftsidebar.html#">5</a></li>
 							<li><a href="blog-alt2-leftsidebar.html#">Next</a></li>
-						</ul>
+						</ul-->
 					</div>
 					<!-- End article -->
 				</div>

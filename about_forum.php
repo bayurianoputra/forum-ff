@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="ico/favicon.png">
 
-    <title>I-MiNOR - News Feed</title>
+    <title>I-MiNOR - Tentang I-MiNOR</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +22,15 @@
 	
     <!-- Overwrite bootstrap style -->
     <link href="css/overwrite.css" rel="stylesheet">
-
+	
+	<!-- Owl carousel -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+	
+	<!-- Flexslider -->
+    <link href="css/flexslider.css" rel="stylesheet">
+	
     <!-- prettyPhoto -->	
 	<link href="css/prettyPhoto.css" rel="stylesheet">	
 	
@@ -65,16 +73,16 @@
 	<!--div class="demo-panel">
 		<h6>Color options</h6>
 		<ul class="stylechanger tooltips">
-			<li><a id="color1" href="services.html#" data-skin="default.css"></a></li>
-			<li><a id="color2" href="services.html#" data-skin="pink.css"></a></li>				
-			<li><a id="color3" href="services.html#" data-skin="navy.css"></a></li>
-			<li><a id="color4" href="services.html#" data-skin="blue.css"></a></li>	
-			<li><a id="color5" href="services.html#" data-skin="orange.css"></a></li>
-			<li><a id="color6" href="services.html#" data-skin="purple.css"></a></li>
-			<li><a id="color7" href="services.html#" data-skin="violet.css"></a></li>
-			<li><a id="color8" href="services.html#" data-skin="green.css"></a></li>			
-			<li><a id="color9" href="services.html#" data-skin="misty.css"></a></li>
-			<li><a id="color10" href="services.html#" data-skin="yellow.css"></a></li>				
+			<li><a id="color1" href="blog-alt1-rightsidebar.html#" data-skin="default.css"></a></li>
+			<li><a id="color2" href="blog-alt1-rightsidebar.html#" data-skin="pink.css"></a></li>				
+			<li><a id="color3" href="blog-alt1-rightsidebar.html#" data-skin="navy.css"></a></li>
+			<li><a id="color4" href="blog-alt1-rightsidebar.html#" data-skin="blue.css"></a></li>	
+			<li><a id="color5" href="blog-alt1-rightsidebar.html#" data-skin="orange.css"></a></li>
+			<li><a id="color6" href="blog-alt1-rightsidebar.html#" data-skin="purple.css"></a></li>
+			<li><a id="color7" href="blog-alt1-rightsidebar.html#" data-skin="violet.css"></a></li>
+			<li><a id="color8" href="blog-alt1-rightsidebar.html#" data-skin="green.css"></a></li>			
+			<li><a id="color9" href="blog-alt1-rightsidebar.html#" data-skin="misty.css"></a></li>
+			<li><a id="color10" href="blog-alt1-rightsidebar.html#" data-skin="yellow.css"></a></li>				
 		</ul>
 		<div class="clearfix"></div>
 		<h6>Index variants</h6>
@@ -106,9 +114,9 @@
 			</li>
 		</ul>
 	</div>	
-	<a class="openpanel" href="services.html#" title=""><i class="icon-equalizer2"></i></a>
+	<a class="openpanel" href="blog-alt1-rightsidebar.html#" title=""><i class="icon-equalizer2"></i></a>
 	<!-- End demo options --> 
-	
+		
 	<!-- Start theme containt -->
 	<div id="wrapper">
 		<!-- Start navbar -->
@@ -122,7 +130,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="services.html#"><img src="" alt="" /></a>
+						<a class="navbar-brand" href="blog-alt1-rightsidebar.html#"><img src="" alt="" /></a>
 					</div>
 					<!-- End navbar-header -->
 					
@@ -186,12 +194,12 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 col-sm-6">
-							<h3><i class="icon-tools"></i> News Feed</h3>
+							<h3><i class="icon-book-open"></i> Tentang I-MiNOR</h3>
 						</div>
 						<div class="col-md-6 col-sm-6 text-right">
 							<ol class="breadcrumb">
 							  <li><a href="#"></a></li>
-							  <li>
+							  
 							</ol>
 						</div>
 					</div>
@@ -201,162 +209,71 @@
 		<!-- End inner head -->
 		
 		<!-- Start inner page -->
-
-		<div class="clearfix"></div>
-		
-		<!-- Start blog -->
-		<section class="containt">
+		<div class="inner-page">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center">
-						<div class="heading">
-							<h3><span></span></h3>
-							<p>News feed</p>
-							<span class="linner"></span>
-						</div>
-					</div>
-					<div class="col-md-12">
-						<div id="recent-blog" class="owl-carousel">
-							<div class="row recent-post-wrapper">
-								<div class="col-md-6">
-									<a href="news_feed/ram.pdf#"><img src="news_feed/ram.png" class="img-responsive" alt="" /></a>
+					<!-- Start article -->
+					<div class="col-md-9 col-sm-9">
+						<!-- Start article 1 -->
+						<div class="row">
+							<div class="article-post">
+								<div class="col-md-5 article-media">
+									<a href="#"><img src="img/logo_iminor.jpg" class="img-thumbnail img-responsive" alt="" /></a>
 								</div>
-								<div class="col-md-6">
+								<div class="col-md-7">
 									<article>
 										<div class="article-title">
-											<div class="post-date"><span>10</span>Sept</div>
-											<h5><a href="news_feed/sistem operasi.pdf#">RAM</a></h5>
-											
+											<div class=""></div>
+											<h5><a href="#">
+												I-MiNOR</a></h5>
 										</div>
 										<p>
-										Di sistem ini, memori adalah urutan byte yang dinomori (seperti “sel” atau “lubang burung dara”), masing-masing berisi sepotong kecil informasi. Informasi ini mungkin menjadi perintah untuk mengatakan pada komputer apa yang harus dilakukan. Sel mungkin berisi data yang diperlukan komputer untuk melakukan suatu perintah. Setiap slot mungkin berisi salah satu, dan apa yang sekarang menjadi data mungkin saja kemudian menjadi perintah.
-										</p>
-										<a href="news_feed/ram.pdf#" class="btn btn-default">Read more</a>
-									</article>
-								</div>
-							</div>
-							<div class="row recent-post-wrapper">
-								<div class="col-md-6">
-									<a href="news_feed/Virus.pdf#"><img src="news_feed/logo_virus.png" class="img-responsive" alt="" /></a>
-								</div>
-								<div class="col-md-6">
-									<article>
-										<div class="article-title">
-											<div class="post-date"><span>10</span>Sept</div>
-											<h5><a href="news_feed/Virus.pdf#">Semua Tentang Virus</a></h5>
-											
-										</div>
-									<p>
-									Virus komputer: Sebuah kode komputer yang mampu "berbiak dengan sendirinya" yang menempelkan sebagian atau seluruh kodenya pada file atau aplikasi, dan mengakibatkan komputer Anda melakukan hal-hal yang tidak Anda inginkan.
-									</p>
-									<a href="news_feed/Virus.pdf#" class="btn btn-default">Read more</a>
-									</article>
-								</div>
-							</div>
-							<div class="row recent-post-wrapper">
-								<div class="col-md-6">
-									<a href="news_feed/bahasa pemograman.pdf#"><img src="img/blog/img04.jpg" class="img-responsive" alt="" /></a>
-								</div>
-								<div class="col-md-6">
-									<article>
-										<div class="article-title">
-											<div class="post-date"><span>10</span>Sept</div>
-											<h5><a href="news_feed/bahasa pemograman.pdf#">Bahasa pemrograman </a></h5>
-											
-										</div>
-									<p>
-									Bahasa pemrograman merupakan untaian kata-kata berupa instruksi/perintah-
-perintah yang biasanya terdiri dari banyak baris yang bisa dimengerti oleh
-komputer. Bahasa pemrograman ini wajib dikuasai oleh seorang developer agar
-dapat membangun sebuah aplikasi/software. Dan untuk membuat aplikasi
-tertentu maka digunakan juga bahasa pemrograman yang sesuai dengan
-kebutuhan aplikasi yang akan dibuat tersebut.
-									</p>
-									<a href="news_feed/bahasa pemograman.pdf#" class="btn btn-default">Read more</a>
-									</article>
-									</div>
-					</div>
-					<div class="col-md-12">
-						<div id="recent-blog" class="owl-carousel">
-							<div class="row recent-post-wrapper">
-								<div class="col-md-6">
-									<a href="news_feed/sistem operasi.pdf#"><img src="news_feed/Special-Purpose-Distributions.jpg" class="img-responsive" alt="" /></a>
-								</div>
-								<div class="col-md-6">
-									<article>
-										<div class="article-title">
-											<div class="post-date"><span>11</span>Sept</div>
-											<h5><a href="news_feed/sistem operasi.pdf#">SISTEM OPERASI, SOFTWARE APLIKASI & BAHASA PEMROGRAMAN
-BESERTA PERBEDAAN ANTAR KETIGANYA</a></h5>
-											
-										</div>
-										<p>
-										ISTEM OPERASI, SOFTWARE APLIKASI & BAHASA PEMROGRAMAN
-BESERTA PERBEDAAN ANTAR KETIGANYA
-Perbedaan Sistem Operasi, Software Aplikasi, Bahasa Pemrograman
-										</p>
-										<a href="news_feed/sistem operasi.pdf#" class="btn btn-default">Read more</a>
-									</article>
-								</div>
-							</div>
-							<div class="row recent-post-wrapper">
-								<div class="col-md-6">
-									<a href="news_feed/Artikel Teknologi.pdf#"><img src="news_feed/foto artikel.jpg" class="img-responsive" alt="" /></a>
-								</div>
-								<div class="col-md-6">
-									<article>
-										<div class="article-title">
-											<div class="post-date"><span>12</span>Sept</div>
-											<h5><a href="news_feed/Artikel Teknologi.pdf#">Artikel Tentang Teknologi</a></h5>
-											
-										</div>
-									<p>
-									Artikel Teknologi Mengenai Perkembangan Komputer – Teknologi sering dikaitkan dengan komputer. Karena komputer memang penemuan yang telah merubah banyak sekali perubahan di belahan dunia manapun. Oleh karena itu, bisa dianggap komputer adalah kilas balik dari kemajuan dunia teknologi. Sehingga dengan adanya komputer ini, manusia dapat mengerjakan pekerjaan lebih cepat dan efisien.
-									</p>
-									<a href="news_feed/Artikel Teknologi.pdf#" class="btn btn-default">Read more</a>
-									</article>
-									</div>
-							</div>
-							<div class="row recent-post-wrapper">
-								<div class="col-md-6">
-									<a href="news_feed/sejarah komputer.pdf#"><img src="news_feed/komputer.png" class="img-responsive" alt="" /></a>
-								</div>
-								<div class="col-md-6">
-									<article>
-										<div class="article-title">
-											<div class="post-date"><span>19</span>Sept</div>
-											<h5><a href="news_feed/sejarah komputer.pdf#">Sejarah Komputer</a></h5>
-											
-										</div>
-									<p>
-									Sejarah Komputer
-Generasi Pertama
-Berawal dari gagasan Charles Babbage (lahir 26 Desember 1791 – meninggal 18 Oktober 1871 pada umur 79 tahun) adalah seorang matematikawan dari Inggris yang pertama kali mengemukakan gagasan tentang komputer yang dapat diprogram. Pada masa itu, perhitungan dengan menggunakan tabel matematika sering mengalami kesalahan. Babbage ingin mengembangkan cara melakukan perhitungan secara mekanik, sehingga dapat mengurangi kesalahan perhitungan yang sering dilakukan oleh manusia. Saat itu, Babbage mendapat inspirasi dari perkembangan mesin hitung. Beliau merupakan penemu mesin komputer pertama.
-									</p>
-									<a href="news_feed/Artikel Teknologi.pdf#" class="btn btn-default">Read more</a>
-									</article>
+										
 
+    <h5>Nama Forum :</h5>  <h6><span>I-Minor (Informatic Managemenent Non Reguler)</span></h6> <br>
+
+<h5>Visi</h5> <br>		
+1. Menjadi forum yang berperan terhadap pembentukan karakter, peningkatan kompetensi dalam bidang IT, sehingga dihasilkan pemuda/i Indonesia yang siap bersaing di era globalisasi <br><br>
+2. Menjadi sarana untuk pengembangan disiplin ilmu berbasis teknologi dan informasi <br><br>
+3. Menjadi sebuah jembatan penghubung antara mahasiswa/i non reguler Manajemen Informatika<br><br>
+4. Menjadi sarana penyampaian aspirasi bagi mahasiswa/I non reguler Manajemen Informatika<br><br>
+<br><br>
+<h5><span>Misi</span></h5> <br><br>		
+1. Memberikan wadah berkumpul bagi mahasiswa/I non reguler Manajemen Informatika<br><br>
+2. Berpartisipasi aktif dalam kegiatan-kegiatan yang berkenaan dengan dunia informatika <br><br>
+3. Selalu menjaga kepribadian dan toleransi terhadap semua anggota <br><br>
+4. Berusaha memberikan kontribusi terbaik kepada setiap anggota <br><br>
+<br><br>
+
+ 
+										</p>
+										<a href="#" class=""></a>
+									</article>
 								</div>
 							</div>
 						</div>
+						<!-- End article 1 -->
+						<!-- Start article 2 -->
+						
+						<!-- End article 2 -->
+						<!-- Start article 3 -->
+						
+						
+						<!-- End article 3 -->						
+						
+						<!-- End article 4 -->
+						
+						
 					</div>
-				</div>
-			</div>
-		</section>
-		
-				<div class="clearfix"></div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="client-wrapper padding-clear">
-												
-						</div>
-					</div>
+					<!-- End article -->
+					
+					<!-- Start aside -->
+					<!-- End aside -->
 				</div>
 			</div>
 		</div>
-		
 		<!-- End inner page -->
-			
+
 		<!-- Start footer -->
 		<footer>
 			<div class="container">
@@ -419,7 +336,11 @@ Berawal dari gagasan Charles Babbage (lahir 26 Desember 1791 – mening
 	<!-- parallax -->
 	<script src="js/parallax/jquery.parallax-1.1.3.js"></script>
 	<script src="js/parallax/setting.js"></script>
-
+	
+	<!-- ticker -->
+	<script src="js/ticker/ticker.js"></script>
+	<script src="js/ticker/setting.js"></script>
+	
 	<!-- Go to top -->
 	<script src="js/totop/jquery.ui.totop.js"></script>	
 	<script src="js/totop/setting.js"></script>
