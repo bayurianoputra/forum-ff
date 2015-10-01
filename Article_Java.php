@@ -219,13 +219,13 @@
 						<div class="row">
 							<div class="article-post">
 								<div class="col-md-5 article-media">
-									<a href="Ebook Java Visual.pdf#"><img src="img/Java-Logo.jpg" class="img-thumbnail img-responsive" alt="" /></a>
+									<a href="pdf/Ebook Java Visual.pdf#"><img src="img/Java-Logo.jpg" class="img-thumbnail img-responsive" alt="" /></a>
 								</div>
 								<div class="col-md-7">
 									<article>
 										<div class="article-title">
 											<div class="post-date"><span>06</span>Sept</div>
-											<h5><a href="Ebook Java Visual.pdf#">
+											<h5><a href="pdf/Ebook Java Visual.pdf#">
 												Ebook Java Visual</a></h5>
 										</div>
 										<p>
@@ -244,7 +244,7 @@ pemrograman berorientasi obyek, inheritance dan constructor. Topik-topik
 lain dalam pemrograman berorientasi obyek akan dibahas lebih lanjut bila
 memang diperlukan.
 										</p>
-										<a href="Ebook Java Visual.pdf#" class="btn btn-default">Read more</a>
+										<a href="pdf/Ebook Java Visual.pdf#" class="btn btn-default">Read more</a>
 									</article>
 								</div>
 							</div>
@@ -270,7 +270,7 @@ memang diperlukan.
 									<article>
 										<div class="article-title">
 											<div class="post-date"><span>06</span>Sept</div>
-											<h5><a href="Gui.pdf#">Java GUI</a></h5>
+											<h5><a href="pdf/Gui.pdf#">Java GUI</a></h5>
 											
 										</div>
 										<p>
@@ -283,7 +283,7 @@ pada saat membuat program.
 Tentu saja kepentingan penggunaan tampilan akan berpulang pada penempatan
 program itu sendiri.
 										</p>
-										<a href="Gui.pdf#" class="btn btn-default">Read more</a>
+										<a href="pdf/Gui.pdf#" class="btn btn-default">Read more</a>
 									</article>
 								</div>
 							</div>
@@ -296,14 +296,14 @@ program itu sendiri.
 						<div class="row">
 							<div class="article-post">
 								<div class="col-md-5 article-media">
-									<a href="Pocket Book WindowBuilder Eclipse.pdf#"><img src="img/300px-Java_logo.jpg" class="img-thumbnail img-responsive" alt="" /></a>
+									<a href="pdf/Pocket Book WindowBuilder Eclipse.pdf#"><img src="img/300px-Java_logo.jpg" class="img-thumbnail img-responsive" alt="" /></a>
 								</div>
 								
 								<div class="col-md-7">
 									<article>
 										<div class="article-title">
 											<div class="post-date"><span>06</span>Sept</div>
-											<h5><a href="Pocket Book WindowBuilder Eclipse.pdf#">Pocket Book Windows Builder Eclipse</a></h5>
+											<h5><a href="pdf/Pocket Book WindowBuilder Eclipse.pdf#">Pocket Book Windows Builder Eclipse</a></h5>
 											
 										</div>
 										<p>
@@ -316,7 +316,7 @@ lebih simpel dari GUI Builder milik Netbeans.Jadi anda dapat mengubahnya dengan 
 tutorial kali ini saya akan membuat aplikasi database sederhana dengan menggunakan Java dan
 MySQL.
 										</p>
-										<a href="Pocket Book WindowBuilder Eclipse.pdf#" class="btn btn-default">Read more</a>
+										<a href="pdf/Pocket Book WindowBuilder Eclipse.pdf#" class="btn btn-default">Read more</a>
 									</article>
 								</div>
 							</div>

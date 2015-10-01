@@ -308,7 +308,7 @@
 								
 									
 								<div class="video-container article-media">
-									<iframe id="player" src="https://www.youtube.com/embed/mdfMT5Zi8Eo" class="img-thumbnail"></iframe>
+									<iframe id="player" src="https://www.youtube.com/embed/https://youtu.be/Hl-zzrqQoSE?list=PLFE2CE09D83EE3E28" class="img-thumbnail"></iframe>
 								</div-->
 								<article>
 									<div class="article-title">
@@ -329,7 +329,7 @@
 										
 									
 								<div class="video-container article-media">
-									<iframe id="player" src="https://www.youtube.com/embed/mdfMT5Zi8Eo" class="img-thumbnail"></iframe>
+									<iframe id="player" src="https://www.youtube.com/embed/https://youtu.be/d6IIZ6oREcE?list=PLCZlgfAG0GXDUvrO3Bc_VUvIjWKnYIRJ1" class="img-thumbnail"></iframe>
 								</div-->
 								<article>
 									<div class="article-title">
@@ -349,7 +349,7 @@
 										
 									
 								<div class="video-container article-media">
-									<iframe id="player" src="https://www.youtube.com/embed/mdfMT5Zi8Eo" class="img-thumbnail"></iframe>
+									<iframe id="player" src="https://www.youtube.com/embed/https://youtu.be/dineyA-1Px0" class="img-thumbnail"></iframe>
 								</div-->
 								<article>
 									<div class="article-title">

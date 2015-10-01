@@ -304,11 +304,11 @@
 					<div class="col-md-9 col-sm-9">
 						<!-- Start article 1 -->
 							<div class="article-post">
-								<a href="blog-alt2-leftsidebar.html#"><img src="img/blog/large/img01.jpg" class="article-media img-responsive" alt="" /></a>
+								<a href="pdf/modul pembuatan aplikasi login dengan php dan mysqlx.pdf#"><img src="img/blog/large/img01.jpg" class="article-media img-responsive" alt="" /></a>
 								<article>
 									<div class="article-title">
 										<div class="post-date"><span>07</span>Sept</div>
-										<h5><a href="modul pembuatan aplikasi login dengan php dan mysqlx.pdf#"> pembuatan aplikasi login dengan php dan mysql</a></h5>
+										<h5><a href="pdf/modul pembuatan aplikasi login dengan php dan mysqlx.pdf#"> pembuatan aplikasi login dengan php dan mysql</a></h5>
 										
 									</div>
 									<p>
@@ -316,7 +316,7 @@
 fitur login. Aplikasi login digunakan untuk mencocokan username dan password yang diinput
 oleh user/admin dengan username dan password yang tersimpan didatabase.
 									</p>
-									<a href="modul pembuatan aplikasi login dengan php dan mysqlx.pdf#" class="btn btn-default">Read more</a>
+									<a href="pdf/modul pembuatan aplikasi login dengan php dan mysqlx.pdf#" class="btn btn-default">Read more</a>
 								</article>
 							</div>
 						<!-- End article 1 -->
